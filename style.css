@@ -192,11 +192,11 @@ body {
 	margin: 1.5rem 0;
 }
 #actividad .texto_curso {
-	font-size: 2.0rem;
+	font-size: 18px;
 	line-height: 3.0rem !important;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 2.0rem;
+    font-size: 18px;
 }
 .slide-wrapper {
 	text-align: left;
@@ -237,7 +237,7 @@ body {
 
 /*tamaño enunciado listas*/
 #actividad textarea {
-    font-size: 2.0rem;
+    font-size: 18px;
 }
 
 /*ENLACE WEB*/
@@ -252,7 +252,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
-	font-size: 2.0rem;
+	font-size: 18px;
 	font-weight: bold;
 }
 #actividad .content .header .title {
@@ -535,7 +535,7 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: var(--colorppal);
     cursor: pointer;
-    font-size: 2.0rem;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.2;
     padding-right: 2.7rem;
@@ -699,7 +699,7 @@ body:not(.edit) .back .bck-flipbox-title,
 	font-weight: normal;
 	position: relative;
 	color: #999999;
-	font-size: 2.0rem;
+	font-size: 18px;
 	width: auto;
 	margin-top: 0px;
 	left: 0;
@@ -1162,7 +1162,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 #actividad .workspace.test .radio-option label.filter-label,
 #actividad .workspace.true-false .checkbox-option label.filter-label,
 #actividad .workspace.true-false .radio-option label.filter-label {
-	font-size: 1.8rem;
+	font-size: 18px;
 	font-weight: 300;
 	margin-left: 0px;
 	padding: 0 5px;
@@ -1254,7 +1254,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     -moz-border-radius: 25px;
     border-radius: 25px;
     color: #fff;
-    font-size: 2.0rem;
+    font-size: 18px;
 }
 .btn-primary[disabled],
 .btn-primary[disabled]:focus {
@@ -1328,14 +1328,14 @@ and (max-width : 480px) {
     line-height: 2.8rem !important;
 }
 #actividad .texto_curso {
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 2.8rem !important;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 #actividad textarea {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 #actividad .class_slide .review {
     text-align: center;
@@ -1348,7 +1348,7 @@ and (max-width : 480px) {
     font-size: 2.2rem;
 }
 .bck-title-3 {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 .puzzle-wrapper {
     width: 100%;
