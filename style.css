@@ -471,11 +471,15 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 .bck-box.bck-box-1 {
     background-color: var(--colortrans);
     margin: 20px 0;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 .bck-box.bck-box-1 .bck-title {
     color: black;
     font-weight: bold;
+    font-size: inherit;
+}
+.bck-box.bck-box-1 .bck-content {
+    padding: 0;
 }
 
 /* CAJA 2 */
@@ -485,13 +489,13 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 .bck-box.bck-box-2 {
     background-color: white;
     color: #231F20;
-    border: 2px dashed #FDB325;
-    margin: 25px 0px 20px;
+    border: 2px dashed var(--colorppal);
+    margin: 35px 0px 20px;
     padding: 0;
     border-radius: 0;
 }
  .bck-box.bck-box-2 .bck-title  {
-    background: #FDB325;
+    background: var(--colorppal);
     padding: 8px 30px;
     width: fit-content;
     width: -moz-fit-content;
@@ -509,28 +513,20 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 
 /*CAJA 3 */
 .bck-box.bck-box-3 {
-    background-color: white;
-    color: #231F20;
-    border: 2px dashed #FDB325;
     margin: 25px 0px 20px;
     padding: 0;
-    border-radius: 0;
 }
- .bck-box.bck-box-3 .bck-title  {
-    background: #FDB325;
-    padding: 8px 30px;
-    width: fit-content;
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-top: -20px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
+.bck-box.bck-box-3 .bck-title {
+    font-weight: normal;
+    color: var(--colorppal);
+    border: 0;
+    font-size: inherit;
+    margin-bottom: 12px;
+    font-size: 30px;
 }
 .bck-box.bck-box-3 .bck-content {
-    padding: 15px 20px 20px 20px;
+    padding: 20px;
+    border: 2px dashed var(--colorppal);
 }
 
 /*Desplegable*/
@@ -679,13 +675,21 @@ body:not(.edit) .back .bck-flipbox-title,
 }
 
 /*General ordenadas*/
+#actividad .content .texto_curso .bck-ol li,
+ #actividad .popover-content .bck-ol li,
+  #actividad .content .workspace ul li .bck-ol li {
+    list-style-type: none;
+    counter-increment: bck-li-counter 1;
+    position: relative;
+    font-size: 15px;
+}
 #actividad .content .texto_curso .bck-ol li:before,
  #actividad .popover-content .bck-ol li:before,
  #actividad .content .workspace ul li .bck-ol li:before {
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
-    font-size: 1.9rem;
+    font-size: 15px;
     font-family: 'Inter', sans-serif;
 	margin-left: -10px; 
 	left: 0;
@@ -707,18 +711,18 @@ body:not(.edit) .back .bck-flipbox-title,
  #actividad .content .texto_curso .bck-ol-1 li:before,
   #actividad .popover-content .bck-ol-1 li:before,
    #actividad .content .workspace ul li .bck-ol-1 li:before {
-	content: counter(bck-li-counter) "";
-	font-family: 'Inter', sans-serif;
-	font-weight: normal;
-	position: relative;
-	color: #999999;
-	font-size: 18px;
-	width: auto;
-	margin-top: 0px;
-	left: 0;
-	top: 0px;
-	margin-right: 10px;
-	margin-left: 0px;
+    content: counter(bck-li-counter) ".";
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    position: relative;
+    color: inherit;
+    font-size: 15px;
+    width: auto;
+    margin-top: 0px;
+    left: 0;
+    top: 0px;
+    margin-right: 5px;
+    margin-left: 0px;
 }
 
 /*Lista ordenada 2*/
@@ -737,10 +741,10 @@ body:not(.edit) .back .bck-flipbox-title,
     content: counter(bck-li-counter, lower-alpha) ")";
     padding-right: 0px;
     text-align: center;
-    color: #999999;
+    color: inherit;
     font-weight: normal;
     margin-right: 5px;
-    top: -2px;
+    top: 0;
 }
 
 
@@ -899,6 +903,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 #actividad .content img {
     margin-top: 0;
+}
+
+/*Barra de separación (HR)*/
+hr {
+    margin: 20px 0;
+    border-top-color: var(--colorppal);
 }
 
 /*--*/
