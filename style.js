@@ -33,7 +33,15 @@
 
 				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } }
+				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+
+				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-1'} },
+				{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-2'} },
+				{ name: 'Table 03', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-3'} },
+
+				{ name: 'Cell 01', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
+				{ name: 'Cell 02', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
+				{ name: 'Cell 03', element: 'td', attributes: { 'class': 'bck-td bck-td-3'} },
 			]
 		},
 		slidesTitle: {},
