@@ -482,44 +482,55 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 .bck-box.bck-box-2 .bck-title:before {
 	display: none;
 }
-
 .bck-box.bck-box-2 {
-    background-color: rgb(74,74,74);
-    background: white;
+    background-color: white;
     color: #231F20;
-    border: 3px dashed #FDB325;
-    margin: 25px 10px 0;
+    border: 2px dashed #FDB325;
+    margin: 25px 0px 20px;
     padding: 0;
-    border-radius: 25px;
+    border-radius: 0;
 }
-
  .bck-box.bck-box-2 .bck-title  {
     background: #FDB325;
-    padding: 8px 15px;
+    padding: 8px 30px;
     width: fit-content;
-    border-radius: 25px;
-    margin: 0 auto;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    border-radius: 5px;
+    margin-left: 20px;
     margin-top: -20px;
     text-align: center;
     font-weight: bold;
     color: white;
 }
-
 .bck-box.bck-box-2 .bck-content {
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 20px 20px;
 }
 
 /*CAJA 3 */
 .bck-box.bck-box-3 {
-    background-color: #E5E5E5;
-    width: calc(100% + 120px);
-    margin-left: -60px;
-    max-width: none;
-    padding: 15px 60px;
+    background-color: white;
+    color: #231F20;
+    border: 2px dashed #FDB325;
+    margin: 25px 0px 20px;
+    padding: 0;
+    border-radius: 0;
 }
-.bck-box-3 > .bck-title {
+ .bck-box.bck-box-3 .bck-title  {
+    background: #FDB325;
+    padding: 8px 30px;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: -20px;
     text-align: center;
     font-weight: bold;
+    color: white;
+}
+.bck-box.bck-box-3 .bck-content {
+    padding: 15px 20px 20px 20px;
 }
 
 /*Desplegable*/
