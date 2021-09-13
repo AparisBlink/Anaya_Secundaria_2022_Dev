@@ -1377,6 +1377,22 @@ table td,
     font-size: 15px;
 }
 
+.bck-table-1 {
+	border-color: var(--colorppal);
+}
+.bck-table-1 td {
+	border-color: var(--colorppal);
+    font-size: 15px;
+}
+
+.bck-table-2 {
+	border-color: var(--GrisAnaya);
+}
+.bck-table-2 td {
+	border-color: var(--GrisAnaya);
+    font-size: 15px;
+}
+
 td,
 th {
 	padding-left: 10px;
