@@ -476,26 +476,31 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 .bck-box.bck-box-2 .bck-title:before {
 	display: none;
 }
+
 .bck-box.bck-box-2 {
-    background: var(--colortrans);
-    border: 2px solid var(--colorppal);
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: inherit;
+    background-color: rgb(74,74,74);
+    background: white;
+    color: #231F20;
+    border: 3px dashed #FDB325;
+    margin: 25px 10px 0;
     padding: 0;
+    border-radius: 25px;
 }
-.bck-box.bck-box-2 > .bck-title {
-    border: 0;
+
+ .bck-box.bck-box-2 .bck-title  {
+    background: #FDB325;
+    padding: 8px 15px;
+    width: fit-content;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center;
     font-weight: bold;
-    font-size: 2.1rem;
-    background-color: var(--colorppal);
-    color: #FFF;
-    padding: 5px 20px;
+    color: white;
 }
-.bck-box.bck-box-2 > .bck-content {
-    border: 0;
-    padding: 5px 20px 20px 20px;
+
+.bck-box.bck-box-2 .bck-content {
+    padding: 10px 20px 10px 20px;
 }
 
 /*CAJA 3 */
