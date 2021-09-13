@@ -885,6 +885,30 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	background-color: #9D9D9C;
 }
 
+/*Palabras emergentes*/
+.popover.top {
+    margin-top: -10px;
+    background-color: var(--colorppal);
+    font-size: 14px;
+    line-height: 19px;
+}
+.popover-title {
+    margin: 0;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    background-color: var(--colorppal);
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+.popover-content {
+    padding: 0px 14px 10px 14px;
+}
+.popover.top>.arrow:after {
+    border-top-color: var(--colorppal);
+}
+
 /*TABS*/
 body:not(.edit) .bck-tabs-box {
     background-color: #FFF;
