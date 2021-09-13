@@ -534,20 +534,15 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 /*---*/
 /* Content: Dropdown box */
 .body_clase #actividad .bck-dropdown {
-    width: 100%;
-	-moz-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-    -webkit-box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-	box-shadow: 0 3px 7px 0px rgb(0 0 0 / 20%);
-	margin: 15px 0;
+    margin: 15px 0;
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
-    color: var(--colorppal);
+    color: #000;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    line-height: 1.2;
-    padding-right: 2.7rem;
+    padding-right: 40px;
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-button {
@@ -555,25 +550,38 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
     border: 0;
     position: relative;
     cursor: pointer;
-  }
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    display: inline-block;
+    background-color: var(--colorppal);
+    border-radius: 0 12px 12px 0;
+}
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon {
     position: absolute;
     right: 1.1rem;
-    color:var(--colorppal);
+    color:#000;
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon>.fa {
-    color: var(--colorppal);
+    color: #000;
     border: none;
     padding: 0;
-    font-size: 1.6rem;
+    font-size: 18px;
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-content {
     width: 100%;
-    padding: 0 10px 20px 20px;
+    padding: 15px 20px 20px 20px;
     background-color: #E5E5E5;
+    margin-top: -15px;
+    max-height: 600px;
+    font-size: 15px;
+    border-radius: 0 12px 12px 0;
+}
+  .body_clase #actividad .bck-dropdown .bck-dropdown-content p {
+    line-height: 22px;
   }
 /*---*/
 /*Flipbox*/
@@ -583,27 +591,40 @@ body:not(.edit) .bck-flipbox {
 }
 
 body:not(.edit) .bck-flipbox-face.front {
-	border: 0;
-    background: white;
-    -moz-box-shadow: 0px 5px 9px rgb(26 115 233 / 40%);
-    -webkit-box-shadow: 0px 5px 9px rgb(26 115 233 / 40%);
-    box-shadow: 0px 5px 9px rgb(26 115 233 / 40%);
-    color: #000;
+    border: 0;
+    -moz-box-shadow: 0px 5px 9px var(--colortrans);
+    -webkit-box-shadow: 0px 5px 9px var(--colortrans);
+    box-shadow: 0px 5px 9px var(--colortrans);
+    color: white;
+    background-color: var(--colorppal);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 body:not(.edit) .bck-flipbox-face.back {
-	color: #595959;
-    border: 2px solid var(--colorppal);
+    color: #595959;
+    border: 2px solid #000000;
     background: #FFF;
-    -moz-box-shadow: 0 0 6px 0px #1a73e94d;
-    -webkit-box-shadow: 0 0 6px 0px #1a73e94d;
-    box-shadow: 0 0 6px 0px #1a73e94d;
+    -moz-box-shadow: 0 0 6px 0px var(--colortrans);
+    -webkit-box-shadow: 0 0 6px 0px var(--colortrans);
+    box-shadow: 0 0 6px 0px var(--colortrans);
 }
-body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
-    color: #000;
+body:not(.edit) .front .bck-flipbox-title,
+ body:not(.edit) .front .bck-flipbox-section {
+    color: #fff;
 }
 body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #000;
+}
+body:not(.edit)  .bck-flipbox-title,
+ body:not(.edit) .bck-flipbox-section p {
+    margin:0;
+}
+body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
+    border: 0;
 }
 /*----*/
 
@@ -1385,44 +1406,3 @@ and (max-width : 480px) {
 }	
 }
 
-/*Cambios Coursetags*/
-.coursetag_feuer  {
-    --colorppal: #B1201B;
-	--colortrans: #F8E9E8;
-}
-.coursetag_sommer {
-    --colorppal: #F06E00;
-	--colortrans: #FEF1E5;
-}
-.coursetag_sonne {
-    --colorppal: #FFC107;
-	--colortrans: #FFF9E6;
-}
-.coursetag_sprosse {
-    --colorppal: #82C800;
-	--colortrans: #F3FAE5;
-}
-.coursetag_blatt {
-    --colorppal: #00AA64;
-	--colortrans: #E5F7F0;
-}
-.coursetag_meer {
-    --colorppal: #00AAAA;
-	--colortrans: #E5F7F7;
-}
-.coursetag_himmel {
-    --colorppal: #0064AA;
-	--colortrans: #E5F7F7;
-}
-.coursetag_tiefsee {
-    --colorppal: #323CA0;
-	--colortrans: #EBECF6;
-}
-.coursetag_holunder {
-    --colorppal: #6414A0;
-	--colortrans: #F0E8F6;
-}
-.coursetag_flieder {
-    --colorppal: #AA1EA0;
-	--colortrans: #F7E9F6;
-}
