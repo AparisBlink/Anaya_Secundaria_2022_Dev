@@ -581,7 +581,7 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
     border-radius: 0 12px 12px 0;
 }
   .body_clase #actividad .bck-dropdown .bck-dropdown-content p {
-    line-height: 22px;
+    line-height: 22px !important;
   }
 /*---*/
 /*Flipbox*/
@@ -649,6 +649,9 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 .texto_curso ul li {
 	padding-left: 20px;
 }
+#actividad .content ul.bck-ul li {
+    font-size: 15px;
+}
 
 .texto_curso ul li:before,
 .workspace ul li ul li:before,
@@ -690,12 +693,10 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 #actividad .content .texto_curso .bck-ul-2 li::before,
 #actividad .content .cke_contents .bck-ul-2 li::before,
  #actividad .content .workspace ul li .bck-ul-2 li::before {
-    content: "\f061";
-    font-family: 'FontAwesome';
-    background: none;
-    margin-top: 0px;
-    margin-left: -15px;
-    font-size: 16px;
+content: "";
+    height: 2px;
+    width: 7px;
+    margin-top: 13px;
 }
 
 /*General ordenadas*/
@@ -893,6 +894,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     background-color: var(--colorppal);
     font-size: 14px;
     line-height: 19px;
+    border: 0;
 }
 .popover-title {
     margin: 0;
