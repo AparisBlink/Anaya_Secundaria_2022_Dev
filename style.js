@@ -14,11 +14,11 @@
 		ckEditorStyles: {
 			name: 'Anaya_Secundaria_2022_Dev',
 			styles: [
-				{ name: 'Título 01', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
-				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
-				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
-				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
-				{ name: 'Título 05', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
+				{ name: 'Título 01', element: 'h3', attributes: { 'class': 'bck-title-1'} },
+				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title-2'} },
+				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title-3'} },
+				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title-4'} },
+				{ name: 'Título 05', element: 'h3', attributes: { 'class': 'bck-title-5'} },
 
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
