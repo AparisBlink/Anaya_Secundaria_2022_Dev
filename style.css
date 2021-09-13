@@ -696,7 +696,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 content: "";
     height: 2px;
     width: 7px;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
 /*General ordenadas*/
@@ -1368,17 +1368,33 @@ hr {
 /**TABLA**/
 table,
 .bck-table {
-	border: 1px solid #ccc;
+	border: 1px solid #000;
 }
 
 table td,
 .bck-table td {
-	border-color: #ccc;
+	border-color: #000;
+    font-size: 15px;
 }
 
 td,
 th {
 	padding-left: 10px;
+}
+
+/*Celda*/
+table td.bck-td-1 {
+    color: #000;
+    background-color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+table td.bck-td-2 {
+    background-color: #EAEAEA;
+}
+table td.bck-td-3 {
+    background-color: var(--colortrans);
 }
 
 
