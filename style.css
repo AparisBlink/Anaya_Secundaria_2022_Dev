@@ -189,12 +189,12 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 .texto_curso p {
-	line-height: 3.0rem !important;
+	line-height: 25px !important;
 	margin: 1.5rem 0;
 }
 #actividad .texto_curso {
 	font-size: 18px;
-	line-height: 3.0rem !important;
+	line-height: 25px !important;
 }
 #actividad .pregunta .texto_curso {
     font-size: 18px;
@@ -408,11 +408,11 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 	display: none;
 }
 .bck-title-1 {
-    color: #000;
-    font-size: 2.8rem;
-    font-weight: bold;
+    color: var(--colorppal);
+    font-size: 36px;
+    font-weight: normal;
     line-height: 3.0rem;
-    margin: 0;
+    margin: 10px 0 15px 0px;
 }
 .bck-title-2 {
     color: #000;
@@ -462,25 +462,14 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 }
 
 /*Caja 1 */
-.bck-box.bck-box-1:before {
-	display: none;
-}
-.bck-box.bck-box-1:after {
-	display: none;
-}
 .bck-box.bck-box-1 {
-    margin-top: 15px;
-    background: #F8F8F8;
-    border: 2px solid #999999;
+    background-color: var(--colortrans);
+    margin: 20px 0;
+    border-radius: 25px;
 }
-.bck-box-1 > .bck-title {
-    border-bottom: 0px solid #eee;
-    color: #000000;
-    font-size: 2.1rem;
+.bck-box.bck-box-1 .bck-title {
+    color: black;
     font-weight: bold;
-}
-.bck-box.bck-box-1 > .bck-content {
-    padding: 0;
 }
 
 /* CAJA 2 */
