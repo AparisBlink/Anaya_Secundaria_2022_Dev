@@ -14,24 +14,26 @@
 		ckEditorStyles: {
 			name: 'Anaya_Secundaria_2022_Dev',
 			styles: [
-				{ name: 'Title 1', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
-				{ name: 'Title 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
-				{ name: 'Title 3', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
-				{ name: 'Title 4 Context', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
-				{ name: 'Title 5 Fremdtexte', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
+				{ name: 'Título 01', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
+				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
+				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
+				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
+				{ name: 'Título 05', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
 
-				{ name: 'Emphasis Main Color', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Énfasis 03', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 
 
-				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista Ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+				{ name: 'Lista Ordenada 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 
-				{ name: 'Lista Desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
-				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
+				{ name: 'Lista Desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
+				{ name: 'Lista Desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
 
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } }
+				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
+				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } }
 			]
 		},
 		slidesTitle: {},
