@@ -1292,7 +1292,7 @@ hr {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     border: 2px solid var(--colorppal);
-    color: #fff;
+    color: #000;
     background: var(--colorppal);
 	font-weight: 700;
 }
