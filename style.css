@@ -836,14 +836,11 @@ content: "";
 }
 .close-popover {
     color: #000;
+    top: 8px;
 }
 .info-template .info-title {
 	color: #333;
 }
-.info-template .info-title.shown {
-	margin: 0 3px 12px 0;
-}
-
 .info-template .info-title.shown:before {
 	display: none;
 }
@@ -921,7 +918,7 @@ content: "";
     color: #000;
     font-weight: bold;
     font-size: 14px;
-    padding-bottom: 0 0 6px 0;
+    padding: 0 0 6px 0;
 }
 .info-template .fa-info:before {
     color: #000;
