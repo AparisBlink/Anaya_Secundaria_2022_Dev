@@ -76,7 +76,7 @@ body #indice .units ul li.active:hover:not(.disabled) {
 }
 #indice .units ul li a .title {
 	padding: 14px 16px;
-	color: var(--colorppal);
+	color: #000;
 	-moz-transition: margin-left 0.2s ease-in-out;
 	-webkit-transition: margin-left 0.2s ease-in-out;
 	transition: margin-left 0.2s ease-in-out;
@@ -91,7 +91,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a:hover .title {
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	margin-left: 30px;
-	color: #fff;
+	color: #000;
 }
 
 #indice .unit-content .header.default {
@@ -221,7 +221,6 @@ body {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    border-top: 4px solid var(--colorppal);
 }
 
 /*logo*/
