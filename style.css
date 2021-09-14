@@ -351,6 +351,7 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 #actividad .player.audio {
 	background-image: url(images/Anaya_2022_audio.png);
 	color: #fff;
+    background-color: var(--colorppal) !important;
 }
 
 
@@ -368,6 +369,11 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 	vertical-align: sub;
 }
 
+body #actividad a.bck-file-attach,
+ body:not(.edit) #actividad a.bck-file-attach:not(.cke_button):not(.zoom_flag_img) {
+    color: #000;
+}
+
 .bck-sub-label,
 .bck-file-label {
 	background: transparent;
@@ -383,12 +389,12 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 }
 
 .bck-file-attach:before {
-	content: "\f15b";
+    content: "\f15b";
     background-image: none;
     background-repeat: no-repeat;
     padding: 1px 0px;
     background-size: contain;
-    margin-top: 0;
+    margin-top: 4px;
     position: absolute;
     font-family: 'FontAwesome';
 }
@@ -398,11 +404,12 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 }
 
 .bck-file-attach span {
-	display: inline-block;
-	max-width: 75%;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	padding-left: 20px;
+    display: inline-block;
+    max-width: 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: var(--colortrans);
+    padding: 5px 10px 5px 20px;
 }
 
 /* TÍTULOS */
