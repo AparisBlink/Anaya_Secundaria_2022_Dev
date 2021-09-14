@@ -1281,6 +1281,18 @@ hr {
 }
 
 /*Señalar palabras*/
+body #actividad .workspace.chooseblanks .inline-answer a {
+    color: #000;
+}
+#actividad .inline-answer a,
+ body:not(.edit) #actividad .inline-answer a:not(.cke_button):not(.zoom_flag_img) {
+    color: #000;
+}
+#actividad .inline-answer a.selected,
+ body:not(.edit) #actividad .inline-answer a.selected:not(.cke_button):not(.zoom_flag_img) {
+    color: var(--colorppal);
+}
+
 #actividad .workspace.chooseblanks select {
     border-bottom: 1px solid #CCC;
     -moz-box-shadow: 1px 3px 5px #00000040;
