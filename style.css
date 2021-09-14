@@ -450,6 +450,17 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 	background: inherit;
 	padding: 20px;
 	margin: 15px 0;
+    border: 1px solid var(--colorppal);
+}
+.bck-title {
+    font-weight: bold;
+    color: inherit;
+    border: 0;
+    font-size: 18px;
+    padding: 0   
+}
+.bck-box .bck-content {
+    padding: 0;
 }
 .bck-box.center {
     text-align: inherit;
@@ -472,6 +483,7 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
     background-color: var(--colortrans);
     margin: 20px 0;
     border-radius: 5px;
+    border: 0;
 }
 .bck-box.bck-box-1 .bck-title {
     color: black;
@@ -515,6 +527,7 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 .bck-box.bck-box-3 {
     margin: 25px 0px 20px;
     padding: 0;
+    border: 0;
 }
 .bck-box.bck-box-3 .bck-title {
     font-weight: normal;
