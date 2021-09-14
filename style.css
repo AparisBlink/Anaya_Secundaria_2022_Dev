@@ -987,6 +987,68 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 	background-color: #F8F8F8;
 }
 
+/*-- ICONOS --*/
+.item-container .icon:before {
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 54px;
+    margin-top: -16px;
+}
+
+.item-container .icon-tic:before {
+    background-image: url(images/icono_tic.png);
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.item-container .icon-cooperativo:before {
+    background-image: url(images/icono-cooperativo.png);
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.item-container .icon-emprendimiento:before {
+    background-image: url(images/icono-emprendimiento.png);
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.item-container .icon-ods:before {
+    background-image: url(images/icono-ods.png);
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.item-container .icon-pensamiento:before {
+    background-image: url(images/icono-pensamiento.png);
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.item-container .icon-plc:before {
+    background-image: url(images/icono-plc.png);
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+
+
+
+
 /*Eliminar el fondo en el vídeo*/
 .video-js {
 	background-color: transparent;
