@@ -1000,7 +1000,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     vertical-align: middle;
     height: 40px;
     width: 54px;
-    margin-top: -16px;
+    margin-top: 0;
 }
 
 .item-container .icon-tic:before {
