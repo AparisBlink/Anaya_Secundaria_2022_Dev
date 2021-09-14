@@ -1231,15 +1231,10 @@ hr {
     background-color: transparent;
 }
 /*tipo test*/
-#actividad .workspace.test .checkbox-option label.filter-label,
-#actividad .workspace.test .radio-option label.filter-label,
-#actividad .workspace.true-false .checkbox-option label.filter-label,
-#actividad .workspace.true-false .radio-option label.filter-label {
-	font-size: 18px;
-	font-weight: 300;
-	margin-left: 0px;
-	padding: 0 5px;
-}
+
+
+
+
 #actividad .workspace.test .respuesta_ko {
     background-color: #ffe1e4;
     border-bottom: 2px solid #ef0c24;
