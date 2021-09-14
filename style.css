@@ -656,6 +656,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     margin-bottom: 10px;
     margin-left: 0;
     line-height: inherit;
+    font-size: 15px;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
@@ -718,6 +719,13 @@ content: "";
 }
 
 /*General ordenadas*/
+ .texto_curso ol,
+   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol,
+     .cke_contents ol,
+       .popover-content ol {
+        padding-left: 20px; 
+}
+
 #actividad .content .texto_curso .bck-ol li,
  #actividad .popover-content .bck-ol li,
   #actividad .content .workspace ul li .bck-ol li {
