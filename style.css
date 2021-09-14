@@ -1283,11 +1283,11 @@ hr {
 /*Señalar palabras*/
 #actividad .workspace.chooseblanks select {
     border-bottom: 1px solid #CCC;
-    -moz-box-shadow: 3px 2px 5px var(--colortrans);
-    -webkit-box-shadow: 3px 2px 5px var(--colortrans);
-    box-shadow: 3px 2px 5px var(--colortrans);
-    border: 1px solid var(--colortrans);
-    color: var(--colorppal);
+    -moz-box-shadow: 1px 3px 5px #00000040;
+    -webkit-box-shadow: 1px 3px 5px #00000040;
+    box-shadow: 1px 3px 5px #00000040;
+    border: 1px solid var(--colorppal);
+    color: #000;
     padding: 3px 7px;
     margin: 3px 0px;
 }
@@ -1309,9 +1309,9 @@ hr {
 #actividad .workspace.chooseblanks .inline-answer a:hover {
     background-color: #FFF;
     color: var(--colorppal);
-    -moz-box-shadow: 0 4px 7px #1a73e95e;
-    -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
+    -moz-box-shadow: 0 4px 7px var(--colortrans);
+    -webkit-box-shadow: 0 4px 7px var(--colortrans);
+    box-shadow: 0 4px 7px var(--colortrans);
     border-color: var(--colorppal);
 }
 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
