@@ -1257,37 +1257,35 @@ hr {
 /*botonera general*/
 #actividad .class_slide .review {
 	margin-top: 20px;
-	text-align: right;
+	text-align: center;
 	margin-left: 0px;
 }
 
 .btn-danger,
 .btn-danger[disabled] {
-	color: #fff;
-	border-color: transparent;
-    border-radius: 25px;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 5px;
 }
 
 .btn-primary,
  .btn-primary.disabled,
  .btn-primary.disabled:focus,
 .btn-primary.disabled:hover {
-    background-color: #FFF;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-	border-radius: 25px;
-	font-weight: 700;
-	border: 2px solid #FFF;
-    color: var(--colorppal);
-	-moz-box-shadow: 0px 3px 7px #00000036;
-	-webkit-box-shadow: 0px 3px 7px #00000036;
-	box-shadow: 0px 3px 7px #00000036;
+    background-color: #E0E0E0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    color: #000;
+    padding: 10px 15px;
+    font-size: 16px;
 }
 
 .btn-danger,.btn-danger[disabled] {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 25px;
+    border-radius: 5px;
     border: 2px solid var(--colorppal);
     color: #fff;
     background: var(--colorppal);
@@ -1304,9 +1302,6 @@ hr {
     color: var(--colorppal);
     background-color: #FFF;
     border-color: var(--colorppal);
-    -moz-box-shadow: 0 4px 7px #1a73e95e;
-    -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
 }
 
 .btn-primary.active,
@@ -1314,24 +1309,21 @@ hr {
 .btn-primary:not([disabled]):focus,
 .btn-primary:not([disabled]):hover,
 .open .dropdown-toggle.btn-primary {
-	background-color: #FFF;
-    border-color: var(--colorppal);
-    color: var(--colorppal);
-    -moz-box-shadow: 0 4px 7px #1a73e95e;
-    -webkit-box-shadow: 0 4px 7px #1a73e95e;
-    box-shadow: 0 4px 7px #1a73e95e;
+    background-color: var(--colorppal);
+    color: #000;
 }
 #actividad .content .review .attemps span {
-    background-color: var(--colorppal);
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    color: #fff;
-    font-size: 18px;
+    background-color: #E0E0E0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
 }
 .btn-primary[disabled],
 .btn-primary[disabled]:focus {
-    color: #fff;
+    color: #000;
     background-color: #E5E5E5;
     border-color: #E5E5E5;
 }
