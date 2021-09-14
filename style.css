@@ -968,11 +968,13 @@ hr {
      margin: 5px 0px;
 }
 .slide_main input {
-    color: var(--colorppal);
-    border-bottom: 2px solid;
-    border-radius: 0;
+    color: #000;
+    border-radius: 3px;
     height: inherit;
     min-height: 29px;
+    border: 1px solid var(--colorppal);
+    box-shadow: none;
+    background-color: white;
 }
     /*Ajuste de los inputs dentro de GRIDS para alinear las columnas*/
     .slide_main .js--row input:last-of-type {
@@ -999,14 +1001,11 @@ hr {
 
 /*Respuesta múltiple*/
 #actividad .workspace.multiple-choice .opcion {
-    border: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: 0px 5px 4px #00000021;
-    -webkit-box-shadow: 0px 5px 4px #00000021;
-    box-shadow: 0px 5px 4px #00000021;
-    border-left: 3px solid var(--colorppal);
+    border-radius: 5px;
+    -moz-box-shadow: 0px 4px 5px #00000021;
+    -webkit-box-shadow: 0px 4px 5px #00000021;
+    box-shadow: 0px 4px 5px #00000021;
+    border: 1px solid var(--colorppal);
 }
 #actividad .workspace.multiple-choice .opcion figure {
     margin: 0 55px;
@@ -1018,8 +1017,9 @@ hr {
     box-shadow: 0 4px 7px var(--colortrans);
 }
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: var(--colortrans);
+    background-color: var(--colorppal);
     border-color: var(--colorppal);
+    font-weight: bold;
 }
 /*Rellenar espacios*/
 
@@ -1028,10 +1028,8 @@ hr {
     -moz-box-shadow: 0px 5px 4px var(--colortrans);
     -webkit-box-shadow: 0px 5px 4px var(--colortrans);
     box-shadow: 0px 5px 4px var(--colortrans);
-    border: 1px solid var(--colortrans);
-    color: var(--colorppal);
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    border: 1px solid var(--colorppal);
+    color: #000;
     border-radius: 0;
 }
 .fillblanks-draggable-wrapper .response p {
@@ -1041,12 +1039,10 @@ hr {
 .slide_main input[disabled], 
 .slide_main input[readonly],
  fieldset[disabled] .slide_main input {
-    background-color: white;
-    border-bottom: 2px solid var(--colorppal);
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    color: var(--colorppal);
+    background-color: var(--colortrans);
+    border-radius: 5px;
+    border: 0;
+    color: #000;
 }
 .slide_main input:focus,
  .slide_main .form-control:focus {
@@ -1064,9 +1060,6 @@ hr {
     -moz-box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px var(--colortrans);
     box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px var(--colortrans);	  
 }
-.form-control {
-    color: var(--colorppal); 
-}
 /*Arrastrar imagen a espacios*/
 .fillblankimages-draggable .drag-over {
     -webkit-box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px var(--colortrans);
@@ -1075,9 +1068,11 @@ hr {
 }
 /*Relacionar*/
 #actividad .workspace.matching .opcion {
-	-moz-box-shadow: 1px 3px 5px var(--colortrans);
-	-webkit-box-shadow: 1px 3px 5px var(--colortrans);
-	box-shadow: 1px 3px 5px var(--colortrans);
+    -moz-box-shadow: 1px 3px 5px #0000001a;
+    -webkit-box-shadow: 1px 3px 5px #0000001a;
+    box-shadow: 1px 3px 5px #0000001a;
+    border: 1px solid var(--colorppal);
+    padding: 0;
 }
 /*Test*/
 
@@ -1093,14 +1088,15 @@ hr {
     border-radius: 0;
     -moz-box-shadow: 1px 3px 4px var(--colortrans);
     -webkit-box-shadow: 1px 3px 4px var(--colortrans);
-    box-shadow: 1px 3px 4px var(--colortrans);
-    border: 1px solid var(--colortrans);
-    margin-bottom: 10px;
+    box-shadow: 2px -2px 7px 0px #00000029;
+    border: 0;
+    margin-bottom: 15px;
 }
 #actividad .workspace.ordenar li>p:hover {
-    -webkit-box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px var(--colortrans);
-    -moz-box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px var(--colortrans);
-    box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 1px 3px 7px var(--colortrans);	
+    -moz-box-shadow: 2px 3px 6px var(--colortrans);
+    -webkit-box-shadow: 2px 3px 6px var(--colortrans);
+    box-shadow: 2px 3px 6px var(--colortrans);
+    border: 1px solid var(--colorppal);	
 }
 /*Verdadero y falso*/
 
@@ -1128,13 +1124,13 @@ hr {
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
     background: #fff;
-    color: var(--colorppal);
+    color: #000;
     padding: 8px;
     margin: 0 5px;
     -moz-box-shadow: 1px 3px 4px var(--colortrans);
     -webkit-box-shadow: 1px 3px 4px var(--colortrans);
     box-shadow: 1px 3px 4px var(--colortrans);
-    border: 1px solid var(--colortrans);
+    border: 1px solid var(--colorppal);
     margin-bottom: 10px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -1148,15 +1144,12 @@ hr {
 }
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
     background-color: #FFF;
-    -moz-box-shadow: 1px 3px 4px var(--colortrans);
-    -webkit-box-shadow: 1px 3px 4px var(--colortrans);
-    box-shadow: 1px 3px 4px var(--colortrans);
-    border: 1px solid var(--colortrans);
-    width: fit-content;
-    width: -moz-fit-content;
+    width: 100%;
     margin: 0 auto;
     padding: 5px 20px;
-    color: var(--colorppal);
+    color: #000;
+    box-shadow: none;
+    border: 0;
 }
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     background: #fff;
