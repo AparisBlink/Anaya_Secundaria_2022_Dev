@@ -202,6 +202,10 @@ body {
 .slide-wrapper {
 	text-align: left;
 }
+.body_clase .content-wrapper,
+ .body_clase.view-mode .content-wrapper {
+    padding-bottom: 0;
+}
 
 /*Input Blanco*/
 .input_blanco .slide_main .html-book input {
@@ -292,6 +296,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	background: var(--colorppal);
     border-bottom: 0;
     border-top: 4px solid #555;
+    display: none;
 	
 }
 
