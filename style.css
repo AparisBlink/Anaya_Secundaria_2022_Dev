@@ -439,7 +439,15 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 /*Énfasis */
 .bck-enfasis-1 {
     color: var(--colorppal);
-    font-weight: inherit;
+    font-weight: bold;
+}
+.bck-enfasis-2 {
+    border-bottom: 3px solid var(--colorppal);
+}
+.bck-enfasis-3 {
+    background-color: var(--colortrans);
+    padding: 2px 7px;
+    border-radius: 3px;
 }
 
 /* ---- CAJAS ---*/
@@ -467,9 +475,6 @@ body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
 }
 .texto_curso .bck-box p {
     margin: 0;
-}
-.bck-box .bck-content {
-    padding: inherit;
 }
 
 /*Caja 1 */
