@@ -1011,35 +1011,35 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin-top: -8px;
 }
 .item-container .icon-cooperativo:before {
-    background-image: url(images/icono-cooperativo.png);
+    background-image: url(images/icono_cooperativo.png);
     width: 30px;
     height: 35px;
     vertical-align: middle;
     margin-top: -8px;
 }
 .item-container .icon-emprendimiento:before {
-    background-image: url(images/icono-emprendimiento.png);
+    background-image: url(images/icono_emprendimiento.png);
     width: 30px;
     height: 35px;
     vertical-align: middle;
     margin-top: -8px;
 }
 .item-container .icon-ods:before {
-    background-image: url(images/icono-ods.png);
+    background-image: url(images/icono_ods.png);
     width: 30px;
     height: 35px;
     vertical-align: middle;
     margin-top: -8px;
 }
 .item-container .icon-pensamiento:before {
-    background-image: url(images/icono-pensamiento.png);
+    background-image: url(images/icono_pensamiento.png);
     width: 30px;
     height: 35px;
     vertical-align: middle;
     margin-top: -8px;
 }
 .item-container .icon-plc:before {
-    background-image: url(images/icono-plc.png);
+    background-image: url(images/icono_plc.png);
     width: 30px;
     height: 35px;
     vertical-align: middle;
