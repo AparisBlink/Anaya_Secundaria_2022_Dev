@@ -42,6 +42,13 @@
 				{ name: 'Cell 01', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
 				{ name: 'Cell 02', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
 				{ name: 'Cell 03', element: 'td', attributes: { 'class': 'bck-td bck-td-3'} },
+
+				{ name: 'Icono Cooperativo', element: 'span', attributes: { 'class': 'icon icon-cooperativo' } },
+				{ name: 'Icono Emprendimiento', element: 'span', attributes: { 'class': 'icon icon-emprendimiento' } },
+				{ name: 'Icono ODS', element: 'span', attributes: { 'class': 'icon icon-ods' } },
+				{ name: 'Icono Pensamiento', element: 'span', attributes: { 'class': 'icon icon-pensamiento' } },
+				{ name: 'Icono PLC', element: 'span', attributes: { 'class': 'icon icon-plc' } },
+				{ name: 'Icono TIC', element: 'span', attributes: { 'class': 'icon icon-tic' } }
 			]
 		},
 		slidesTitle: {},
