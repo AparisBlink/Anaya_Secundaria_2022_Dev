@@ -820,17 +820,22 @@ content: "";
 .popover-template .popover-title {
     position: relative;
     background: none;
-    padding-left: 0;
     color: #fff;
-    font-size: 2rem;
-    text-align: center;
-    color: var(--colorppal);
+    font-size: 18px;
+    color: #000;
     border-bottom: 0;
-	font-weight: bold;
-    background-color: #FFF;
+    font-weight: bold;
+    background-color: var(--colorppal);
+    padding: 15px 20px 15px 15px;
+}
+.info-popover .popover-content, .popover-template .popover-content {
+    display: block;
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
 }
 .close-popover {
-    color: var(--colorppal);
+    color: #000;
 }
 .info-template .info-title {
 	color: #333;
@@ -851,10 +856,11 @@ content: "";
     font-family: monospace;
     font-size: 1.5rem;
     line-height: 5px;
-    color: var(--colorppal);
+    color: #000;
     border: 1px solid;
     border-radius: 50%;
     padding: 1px 6px;
+    background-color: white
 }
 
 #actividad .info-button {
@@ -868,7 +874,7 @@ content: "";
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #fff;
+    background: var(--colorppal);
     color: #1a171b;
     line-height: 38px;
 	text-align: center;
@@ -902,28 +908,25 @@ content: "";
 	transition: all ease-in-out .5s;
 }
 .info-template.shown {
-	background: #fff;
-	-webkit-box-shadow: 0px 5px 9px rgb(26 115 233 / 40%);
-	-moz-box-shadow: 0px 5px 9px rgb(26 115 233 / 40%);
-	box-shadow: 0px 5px 9px rgb(26 115 233 / 40%);
+    background: var(--colorppal);
+    -moz-box-shadow: -3px 2px 7px #00000038;
+    -webkit-box-shadow: -3px 2px 7px #00000038;
+    box-shadow: -3px 2px 7px #00000038;
+    width: auto;
+    max-width: 180px;
 
 }
 .info-template .info-title.shown {
-    margin: 0 3px 12px 0;
     margin: 5px 10px;
-    padding: 0px;
-    color: var(--colorppal);
+    color: #000;
     font-weight: bold;
     font-size: 14px;
+    padding-bottom: 0 0 6px 0;
 }
-/*Dropdown 1*/
-.bck-dropdown.bck-dropdown-1 {
-	background-color: #9D9D9C;
+.info-template .fa-info:before {
+    color: #000;
 }
 
-.bck-dropdown-1 .bck-dropdown-icon {
-	background-color: #9D9D9C;
-}
 
 /*Palabras emergentes*/
 .popover.top {
