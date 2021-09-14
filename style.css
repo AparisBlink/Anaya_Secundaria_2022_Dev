@@ -715,7 +715,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	position: absolute;
-	margin-top: .6em;
+	margin-top: 8px;
 	margin-left: -10px;
 }
 
