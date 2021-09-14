@@ -129,7 +129,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
 #book-index #indice .units ul li a:hover .title {
     margin: 0;
     font-size: 16px;
-    color: #FFF;
+    color: #000;
 }
 #book-index .col-main {
     background: var(--colorppal);
