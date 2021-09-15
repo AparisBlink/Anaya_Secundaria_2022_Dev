@@ -190,8 +190,12 @@ body {
 }
 .texto_curso p {
 	line-height: 25px !important;
-	margin: 1.5rem 0;
+	margin: 15px 0;
 }
+.texto_curso p:last-of-type {
+    margin-bottom: 15px;
+}
+
 #actividad .texto_curso {
 	font-size: 18px;
 	line-height: 25px !important;
@@ -690,6 +694,14 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
  #actividad .content .cke_contents .bck-ol {
     padding: 0;
 }
+.texto_curso ul,
+ .texto_curso ol,
+  .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
+  .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
+  .cke_contents ul, .cke_contents ol, .popover-content ul, .popover-content ol {
+    margin: 15px 0;
+}
+
 /*LISTAS DESORDENADAS*/
 .texto_curso ul li {
 	padding-left: 20px;
