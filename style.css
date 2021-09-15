@@ -507,20 +507,20 @@ body #actividad a.bck-file-attach,
     display: none;
 }
 .bck-box.bck-box-1, 
-    .bck-box.bck-box1 {
+    .bck-box.box-1 {
     background-color: var(--colortrans);
     margin: 20px 0;
     border-radius: 5px;
     border: 0;
 }
 .bck-box.bck-box-1 .bck-title, 
-    .bck-box.bck-box1 .bck-title {
+    .bck-box.box-1 .bck-title {
     color: black;
     font-weight: bold;
     font-size: inherit;
 }
 .bck-box.bck-box-1 .bck-content, 
-    .bck-box.bck-box1 .bck-content {
+    .bck-box.box-1 .bck-content {
     padding: 0;
 }
 
