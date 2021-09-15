@@ -271,7 +271,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background: none;
     color: var(--GrisAnaya);
     padding: 0;
-    font-size: 48px;
+    font-size: 35px;
     border: 0;
     font-weight: normal;
 
@@ -425,7 +425,7 @@ body #actividad a.bck-file-attach,
 .bck-title-1, 
     .bck-title1 {
     color: var(--colorppal);
-    font-size: 36px;
+    font-size: 24px;
     font-weight: normal;
     line-height: 3.0rem;
     margin: 10px 0 15px 0px;
