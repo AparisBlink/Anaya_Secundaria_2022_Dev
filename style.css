@@ -418,7 +418,8 @@ body #actividad a.bck-file-attach,
 .bck-title-1:before {
 	display: none;
 }
-.bck-title-1 {
+.bck-title-1, 
+    .bck-title-1 {
     color: var(--colorppal);
     font-size: 36px;
     font-weight: normal;
@@ -439,6 +440,7 @@ body #actividad a.bck-file-attach,
     font-size: 18px;
     padding: 2px 5px;
     border-bottom: 2px solid;
+    font-weight: bold;
 }
 .bck-title-4,
 .bck-title4 {
