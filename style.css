@@ -679,6 +679,13 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 /*----*/
 
 /*Ajuste general listas */
+.cke_contents .bck-ol,
+ .cke_contents ol,
+  .content .bck-ol,
+   .content ol {
+    counter-reset: bck-li-counter;
+}
+
 #actividad .texto_curso li,
  #actividad .workspace ul li li {
     position: relative;
