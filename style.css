@@ -419,7 +419,7 @@ body #actividad a.bck-file-attach,
 	display: none;
 }
 .bck-title-1, 
-    .bck-title-1 {
+    .bck-title1 {
     color: var(--colorppal);
     font-size: 36px;
     font-weight: normal;
