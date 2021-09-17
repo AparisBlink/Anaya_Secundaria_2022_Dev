@@ -1,37 +1,17 @@
-/* Fonts */
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+/*Fonts*/
 
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 :root {
-	--colorppal: #FDB325;
-	--colortrans: #FDB32552;
-    --GrisAnaya: #898989
+	--colorppal: #0071AD;
+	--colortrans: #0071ad4f;
+    --GrisAnaya: #898989;
+
+    --Materialppal: #D1232A;
+
+    --Apartadoppal:#F68B1F;
 }
 
 b,
@@ -232,7 +212,7 @@ body {
 }
 
 /*logo*/
-.content_type_curso_Anaya_Secundaria_2022_Dev.content_type_clase_Anaya_Secundaria_2022_Dev   .libro-left ul li .title:before { 
+.content_type_curso_AnayaPrimInicial2022Dev.content_type_clase_AnayaPrimInicial2022Dev   .libro-left ul li .title:before { 
 	opacity: 0;
 }
 
@@ -256,7 +236,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 /*--*/
 
-.Anaya_Secundaria_2022_Dev-navbar h3 {
+.AnayaPrimInicial2022Dev-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
@@ -269,13 +249,14 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .header .title h3 {
     margin-top: 0;
     background: none;
-    color: var(--GrisAnaya);
+    color: var(--colorppal);
     padding: 0;
-    font-size: 35px;
+    font-size: 48px;
     border: 0;
-    font-weight: normal;
-
+    font-weight: bold;
+    font-family: 'Lalezar', cursive;
 }
+
 #actividad .content .header .title h3::before{
 	content: '';
 	display: none;
@@ -290,7 +271,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background: #fff;
 }
 
-.Anaya_Secundaria_2022_Dev-navbar {
+.AnayaPrimInicial2022Dev-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -309,25 +290,25 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	background: none;
 }
 
-body.is_app .Anaya_Secundaria_2022_Dev-navbar {
+body.is_app .AnayaPrimInicial2022Dev-navbar {
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
 	-moz-transition: top 0.5s linear;
 	transition: top 0.5s linear;
 }
 
-body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
+body.is_app .AnayaPrimInicial2022Dev-navbar.ocultar {
 	top: -136px;
 }
 
-.Anaya_Secundaria_2022_Dev-navbar .navbar-content {
+.AnayaPrimInicial2022Dev-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.Anaya_Secundaria_2022_Dev-navbar .copyright {
+.AnayaPrimInicial2022Dev-navbar .copyright {
 	color: #fff;
 	line-height: 5.0rem;
 }
@@ -424,38 +405,60 @@ body #actividad a.bck-file-attach,
 }
 .bck-title-1, 
     .bck-title1 {
-    color: var(--colorppal);
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 3.0rem;
-    margin: 10px 0 15px 0px;
+        color: var(--Materialppal);
+        font-size: 32px;
+        font-weight: normal;
+        line-height: 3.0rem;
+        margin: 10px 0 10px 0px;
+        font-family: 'Lalezar';
 }
 .bck-title-2,
 .bck-title2 {
     color: #000;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+    line-height: 3.0rem;
     margin: 5px 0;
 }
 .bck-title-3,
 .bck-title3 {
-    background: none;
-    color: #fdb325;
-    font-size: 18px;
-    padding: 2px 5px;
-    border-bottom: 2px solid;
+    color: var(--Apartadoppal);
     font-weight: bold;
+    line-height: 3.0rem;
+    margin: 15px 0px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 34px;
 }
 .bck-title-4,
 .bck-title4 {
-    font-size: 18px;
-    color: #6F727B;
-    border-top: 3px solid #E3CE9D;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding-top: 5px;
-    font-weight: 600;
+    font-size: 34px;
+    margin: 15px 0;
+    line-height: 30px;
+    color: var(--Apartadoppal);
+    font-family: 'Lalezar';
 }
+.bck-title-5 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #00A65D;
+    font-family: 'Lalezar';
+    text-transform: uppercase;
+}
+.bck-title-6 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: var(--colorppal);
+    font-family: 'Lalezar';
+}
+.bck-title-7 {
+    color: #00A65D;
+    font-weight: bold;
+    margin: 15px 0px 10px 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
 
 
 /*Énfasis */
