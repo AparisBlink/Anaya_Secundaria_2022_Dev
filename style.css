@@ -39,166 +39,229 @@ strong {
 	font-weight: bold;
 }
 
-/* TOC */
-#indice .units ul li {
-	background: #FFF;
-	opacity: 1;
-	-moz-transition: opacity 0.3s ease-in-out;
-	-webkit-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	-moz-box-shadow: 3px 5px 5px #00000036;
-	-webkit-box-shadow: 3px 5px 5px #00000036;
-	box-shadow: 3px 5px 5px #00000036;
-	margin-bottom: 11px;
-}
+/*-------------------------------------------------*/
+/*------ PARTE QUE NO AFECTA AL DISEÑO FINAL ------*/
+/*-------------------------------------------------*/
 
-#indice .units ul li.active:not(.disabled) {
-	background: var(--colorppal);
-}
+    /* TOC */
+    #indice .units ul li {
+        background: #FFF;
+        opacity: 1;
+        -moz-transition: opacity 0.3s ease-in-out;
+        -webkit-transition: opacity 0.3s ease-in-out;
+        transition: opacity 0.3s ease-in-out;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        -moz-box-shadow: 3px 5px 5px #00000036;
+        -webkit-box-shadow: 3px 5px 5px #00000036;
+        box-shadow: 3px 5px 5px #00000036;
+        margin-bottom: 11px;
+    }
 
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
- #indice .units ul li:focus:not(.disabled) {
-	background: var(--colortrans);
-}
-body #indice .units ul li.active:hover:not(.disabled) {
-	background: var(--colorppal);
-	color: #FFF;
-}
+    #indice .units ul li.active:not(.disabled) {
+        background: var(--colorppal);
+    }
 
-#indice .units ul li a:not(.delete) {
-	padding: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	border-radius: 0;
-}
-#indice .units ul li a .title {
-	padding: 14px 16px;
-	color: #000;
-	-moz-transition: margin-left 0.2s ease-in-out;
-	-webkit-transition: margin-left 0.2s ease-in-out;
-	transition: margin-left 0.2s ease-in-out;
-}
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title {
-	color:#000;
-	margin-left: 30px;
-}
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a:hover .title {
-	margin-left: 30px;
-}
+    body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+    #indice .units ul li:focus:not(.disabled) {
+        background: var(--colortrans);
+    }
+    body #indice .units ul li.active:hover:not(.disabled) {
+        background: var(--colorppal);
+        color: #FFF;
+    }
 
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-	margin-left: 30px;
-	color: #000;
-}
+    #indice .units ul li a:not(.delete) {
+        padding: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+    }
+    #indice .units ul li a .title {
+        padding: 14px 16px;
+        color: #000;
+        -moz-transition: margin-left 0.2s ease-in-out;
+        -webkit-transition: margin-left 0.2s ease-in-out;
+        transition: margin-left 0.2s ease-in-out;
+    }
+    body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title {
+        color:#000;
+        margin-left: 30px;
+    }
+    body:not(.isTablet) #indice .units ul li.active:not(.disabled) a:hover .title {
+        margin-left: 30px;
+    }
 
-#indice .unit-content .header.default {
-	background: var(--colorppal) !important;
-}
-#indice a:hover,
-#indice a:active,
-#indice a:focus {
-	color: var(--colorppal);
-}
-#indice .btn-primary {
-    color: #000;
-    padding-top: 5px;
-}
-#indice .actividades a:hover {
-    color: var(--colorppal);
-}
-/*--*/
+    body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+        margin-left: 30px;
+        color: #000;
+    }
 
-/* MENÚ DESPLEGABLE */
-#book-index #indice .units ul li a .title {
-	margin: 0;
-	font-size: 16px;
-	font-weight: bold;
-}
-#book-index #indice .units ul li a:not(.delete) {
-    padding: 5px 20px 5px 20px;
-    border-bottom: 2px solid var(--colorppal);
-    background-color: #e3e3e3;
-}
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
-    background: var(--colorppal);
-    color: #000;
-}
-#book-index #indice .units ul li a:hover .title {
-    margin: 0;
-    font-size: 16px;
-    color: #000;
-}
-#book-index .col-main {
-    background: var(--colorppal);
-}
-#book-index #indice .unit-content .content .title-buttons {
-    text-align: left;
-}
-#book-index .units ul li a .title {
-    padding: 12px 0px;
-}
-#book-index #indice .unit-content .content .title-buttons .btn {
-    background: #fff;
-    color: #000;
-    padding: 5px 15px;
-    border-radius: 5px;
-}
-#book-index #indice .unit-content .actividades .item {
-    padding: 12px 15px;
-    background: none;
-    color: white;
-}
-#book-index #indice .unit-content .actividades .item .title {
-	color: #FFF;
-	font-weight: bold;
-}
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
- #book-index #indice .unit-content .actividades .item.active,
-  #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #0000002e;
-}
-body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
- #book-index #indice .unit-content .actividades .item.active,
-  #book-index #indice .unit-content .actividades .item.current {
-    background: #0000002e;
-}
-#book-index #indice .unit-content a {
-    color: #fff;
-}
-#book-index #indice .unit-content a:hover,
-   #book-index #indice .unit-content a:active,
-	  #book-index #indice .unit-content a:focus {
-    color: #fff;
-	font-weight: bold;
-}
+    #indice .unit-content .header.default {
+        background: var(--colorppal) !important;
+    }
+    #indice a:hover,
+    #indice a:active,
+    #indice a:focus {
+        color: var(--colorppal);
+    }
+    #indice .btn-primary {
+        color: #000;
+        padding-top: 5px;
+    }
+    #indice .actividades a:hover {
+        color: var(--colorppal);
+    }
+    /*--*/
 
+    /* MENÚ DESPLEGABLE */
+    #book-index #indice .units ul li a .title {
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #book-index #indice .units ul li a:not(.delete) {
+        padding: 5px 20px 5px 20px;
+        border-bottom: 2px solid var(--colorppal);
+        background-color: #e3e3e3;
+    }
+    body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+        background: var(--colorppal);
+        color: #000;
+    }
+    #book-index #indice .units ul li a:hover .title {
+        margin: 0;
+        font-size: 16px;
+        color: #000;
+    }
+    #book-index .col-main {
+        background: var(--colorppal);
+    }
+    #book-index #indice .unit-content .content .title-buttons {
+        text-align: left;
+    }
+    #book-index .units ul li a .title {
+        padding: 12px 0px;
+    }
+    #book-index #indice .unit-content .content .title-buttons .btn {
+        background: #fff;
+        color: #000;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    #book-index #indice .unit-content .actividades .item {
+        padding: 12px 15px;
+        background: none;
+        color: white;
+    }
+    #book-index #indice .unit-content .actividades .item .title {
+        color: #FFF;
+        font-weight: bold;
+    }
+    body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
+    #book-index #indice .unit-content .actividades .item.active,
+    #book-index #indice .unit-content .actividades .item.current {
+        color: #fff;
+        background: #0000002e;
+    }
+    body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
+    #book-index #indice .unit-content .actividades .item.active,
+    #book-index #indice .unit-content .actividades .item.current {
+        background: #0000002e;
+    }
+    #book-index #indice .unit-content a {
+        color: #fff;
+    }
+    #book-index #indice .unit-content a:hover,
+    #book-index #indice .unit-content a:active,
+        #book-index #indice .unit-content a:focus {
+        color: #fff;
+        font-weight: bold;
+    }
+    /*---*/
+    /*logo*/
+    .content_type_curso_Anaya_Secundaria_2022_Dev.content_type_clase_Anaya_Secundaria_2022_Dev .libro-left ul li .title:before { 
+    opacity: 0;
+    }
+
+    /* NAVBAR */
+    .Anaya_Secundaria_2022_Dev-navbar h3 {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .Anaya_Secundaria_2022_Dev-navbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        height: 50px;
+        background: var(--colorppal);
+        border-bottom: 0;
+        border-top: 4px solid #555;
+        display: none;
+    }
+    .logo-publisher {
+        display: none;
+        background: none;
+    }
+    body.is_app .Anaya_Secundaria_2022_Dev-navbar {
+        -webkit-transition: top 0.5s linear;
+        -o-transition: top 0.5s linear;
+        -moz-transition: top 0.5s linear;
+        transition: top 0.5s linear;
+    }
+    body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
+        top: -136px;
+    }
+    .Anaya_Secundaria_2022_Dev-navbar .navbar-content {
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .Anaya_Secundaria_2022_Dev-navbar .copyright {
+        color: #fff;
+        line-height: 5.0rem;
+    }
+    .slider-navigator:hover,
+    .slider-navigator.disabled {
+        opacity: .5;
+        filter: alpha(opacity=50);
+    }
+    /*---*/
+/*---------*/
+
+/*-------------------------------------------------*/
+/*------ PARTE QUE SÍ AFECTA AL DISEÑO FINAL ------*/
+/*-------------------------------------------------*/
 /*General */
+body {
+	font-weight: normal;
+	text-align: left;
+	font-family: 'Inter', sans-serif;
+}
 #swipeview-slider > div {
 	background-color: #eee;
 }
 #actividad .class_slide {
     padding: 40px 60px 0px;
 }
-body {
-	font-weight: normal;
-	text-align: left;
-	font-family: 'Inter', sans-serif;
+
+.texto_curso p:last-of-type {
+    margin-bottom: 15px;
+}
+#actividad .texto_curso {
+	font-size: 18px;
+	line-height: 25px !important;
 }
 .texto_curso p {
 	line-height: 25px !important;
 	margin: 15px 0;
-}
-.texto_curso p:last-of-type {
-    margin-bottom: 15px;
-}
-
-#actividad .texto_curso {
-	font-size: 18px;
-	line-height: 25px !important;
 }
 #actividad .pregunta .texto_curso {
     font-size: 18px;
@@ -209,15 +272,6 @@ body {
 .body_clase .content-wrapper,
  .body_clase.view-mode .content-wrapper {
     padding-bottom: 0;
-}
-
-/*Input Blanco*/
-.input_blanco .slide_main .html-book input {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	background: #fff;
 }
 #actividad .carousel-inner .item-container {
     background-image: none;
@@ -231,10 +285,16 @@ body {
     position: relative;
 }
 
-/*logo*/
-.content_type_curso_Anaya_Secundaria_2022_Dev.content_type_clase_Anaya_Secundaria_2022_Dev   .libro-left ul li .title:before { 
-	opacity: 0;
+
+/*Input Blanco*/
+.input_blanco .slide_main .html-book input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #fff;
 }
+
 
 
 /*video*/
@@ -256,13 +316,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 /*--*/
 
-.Anaya_Secundaria_2022_Dev-navbar h3 {
-	width: 75%;
-	margin: auto;
-	margin-bottom: 15px;
-	font-size: 18px;
-	font-weight: bold;
-}
+
+/* Titulo de la slide */
 #actividad .content .header .title {
     margin-bottom: 0px;
 }
@@ -274,7 +329,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-size: 35px;
     border: 0;
     font-weight: normal;
-
 }
 #actividad .content .header .title h3::before{
 	content: '';
@@ -290,53 +344,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background: #fff;
 }
 
-.Anaya_Secundaria_2022_Dev-navbar {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: 100;
-	width: 100%;
-	height: 50px;
-	background: var(--colorppal);
-    border-bottom: 0;
-    border-top: 4px solid #555;
-    display: none;
-	
-}
 
-.logo-publisher {
-	display: none;
-	background: none;
-}
-
-body.is_app .Anaya_Secundaria_2022_Dev-navbar {
-	-webkit-transition: top 0.5s linear;
-	-o-transition: top 0.5s linear;
-	-moz-transition: top 0.5s linear;
-	transition: top 0.5s linear;
-}
-
-body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
-	top: -136px;
-}
-
-.Anaya_Secundaria_2022_Dev-navbar .navbar-content {
-	width: 100%;
-	height: 100%;
-	padding: 0 20px;
-	text-align: center;
-}
-
-.Anaya_Secundaria_2022_Dev-navbar .copyright {
-	color: #fff;
-	line-height: 5.0rem;
-}
-
-.slider-navigator:hover,
-.slider-navigator.disabled {
-	opacity: .5;
-	filter: alpha(opacity=50);
-}
 
 #actividad .workspace.chooseblanks .inline-answer a {
 	margin: -7px 2px 2px 2px;
@@ -513,20 +521,20 @@ body #actividad a.bck-file-attach,
     border-radius: 5px;
     border: 0;
 }
-.bck-box.bck-box-1 .bck-title, 
-    .bck-box.box-1 .bck-title {
+.bck-box.bck-box-1>.bck-title, 
+    .bck-box.box-1>.bck-title {
     color: black;
     font-weight: bold;
     font-size: inherit;
 }
-.bck-box.bck-box-1 .bck-content, 
-    .bck-box.box-1 .bck-content {
+.bck-box.bck-box-1>.bck-content, 
+    .bck-box.box-1>.bck-content {
     padding: 0;
 }
 
 /* CAJA 2 */
-.bck-box.bck-box-2 .bck-title:before, 
-    .bck-box.bck-box2 .bck-title:before {
+.bck-box.bck-box-2>.bck-title:before, 
+    .bck-box.bck-box2>.bck-title:before {
 	display: none;
 }
 .bck-box.bck-box-2, 
@@ -538,8 +546,8 @@ body #actividad a.bck-file-attach,
     padding: 0;
     border-radius: 0;
 }
- .bck-box.bck-box-2 .bck-title, 
-    .bck-box.bck-box2 .bck-title {
+ .bck-box.bck-box-2>.bck-title, 
+    .bck-box.bck-box2>.bck-title {
     background: var(--colorppal);
     padding: 8px 30px;
     width: fit-content;
@@ -552,8 +560,8 @@ body #actividad a.bck-file-attach,
     font-weight: bold;
     color: white;
 }
-.bck-box.bck-box-2 .bck-content, 
-    .bck-box.bck-box2 .bck-content {
+.bck-box.bck-box-2>.bck-content, 
+    .bck-box.bck-box2>.bck-content {
     padding: 15px 20px 20px 20px;
 }
 
@@ -563,7 +571,7 @@ body #actividad a.bck-file-attach,
     padding: 0;
     border: 0;
 }
-.bck-box.bck-box-3 .bck-title {
+.bck-box.bck-box-3>.bck-title {
     font-weight: normal;
     color: var(--colorppal);
     border: 0;
@@ -571,7 +579,7 @@ body #actividad a.bck-file-attach,
     margin-bottom: 12px;
     font-size: 30px;
 }
-.bck-box.bck-box-3 .bck-content {
+.bck-box.bck-box-3>.bck-content {
     padding: 20px;
     border: 2px dashed var(--colorppal);
 }
@@ -1485,7 +1493,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-solution,
 .btn-solution.disabled,
 .btn-solution[disabled] {
-    color: #00bdff;
+    color: #005472;
     background-color: #fff;
     border: 2px solid #00bdff;
     -webkit-border-radius: 25px;
