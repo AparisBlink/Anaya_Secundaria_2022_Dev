@@ -2,17 +2,17 @@
 (function (blink) {
 	'use strict';
 
-	var AnayaPrimInicial2022DevStyle = function () {
+	var Anaya_Secundaria_2022_DevStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	AnayaPrimInicial2022DevStyle.prototype = {
+	Anaya_Secundaria_2022_DevStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_AnayaPrimInicial2022Dev',
+		bodyClassName: 'content_type_clase_Anaya_Secundaria_2022_Dev',
 		ckEditorStyles: {
-			name: 'AnayaPrimInicial2022Dev',
+			name: 'Anaya_Secundaria_2022_Dev',
 			styles: [
 				{ name: 'Título 01', element: 'h3', attributes: { 'class': 'bck-title-1'} },
 				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title-2'} },
@@ -197,7 +197,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'AnayaPrimInicial2022Dev-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'Anaya_Secundaria_2022_Dev-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -396,7 +396,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'AnayaPrimInicial2022Dev-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'Anaya_Secundaria_2022_Dev-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -482,9 +482,9 @@
  		}
 	};
 
-	AnayaPrimInicial2022DevStyle.prototype = _.extend({}, new blink.theme.styles.basic(), AnayaPrimInicial2022DevStyle.prototype);
+	Anaya_Secundaria_2022_DevStyle.prototype = _.extend({}, new blink.theme.styles.basic(), Anaya_Secundaria_2022_DevStyle.prototype);
 
-	blink.theme.styles['AnayaPrimInicial2022Dev'] = AnayaPrimInicial2022DevStyle;
+	blink.theme.styles['Anaya_Secundaria_2022_Dev'] = Anaya_Secundaria_2022_DevStyle;
 
 })( blink );
 
