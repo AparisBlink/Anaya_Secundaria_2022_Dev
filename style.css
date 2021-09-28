@@ -668,6 +668,9 @@ body:not(.edit) .bck-flipbox-face.back {
     border: 2px solid #000000;
     background: #FFF;
 }
+body:not(.edit) .bck-flipbox-section {
+    text-align: left;
+}
 body:not(.edit) .front .bck-flipbox-title,
  body:not(.edit) .front .bck-flipbox-section {
     color: #fff;
