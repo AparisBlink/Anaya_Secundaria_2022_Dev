@@ -1,4 +1,6 @@
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /*font-family: 'PT Serif', serif;*/
+
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-Regular.woff') format('woff');
@@ -26,6 +28,7 @@
     font-weight: bold;
     font-style: italic;
 }
+
 
 
 :root {
@@ -502,6 +505,9 @@ body #actividad a.bck-file-attach,
     padding: 2px 7px;
     border-radius: 3px;
 }
+.bck-enfasis-4 {
+    font-family: 'PT Serif', serif;
+}
 
 /* ---- CAJAS ---*/
 .bck-box {
@@ -617,25 +623,7 @@ body:not(.edit) .bck-box p {
 }
 
 /*Desplegables*/
-/*Desplegable 1 (Igual que por defecto)*/
-.bck-dropdown-1 .bck-dropdown-icon {
-    background-color: transparent;
-}
-.bck-dropdown.bck-dropdown-1 {
-    background-color: transparent;
-    border: 0;
-}
 
-/*Desplegable 2*/
-.bck-dropdown-2 .fa-chevron-up:before {
-    content: "\f077";
-}
-.bck-dropdown-2 .fa-chevron-down:before {
-    content: "\f078";
-}
-.body_clase #actividad .bck-dropdown-2 .bck-dropdown-button {
-    background-color: #C7C5C5;
-}
 
 /*---*/
 /* Content: Dropdown box */
@@ -688,7 +676,28 @@ body:not(.edit) .bck-box p {
 }
   .body_clase #actividad .bck-dropdown .bck-dropdown-content p {
     line-height: 22px !important;
-  }
+}
+
+/*Desplegable 1 (Igual que por defecto)*/
+.bck-dropdown-1 .bck-dropdown-icon {
+    background-color: transparent;
+}
+.bck-dropdown.bck-dropdown-1 {
+    background-color: transparent;
+    border: 0;
+}
+
+/*Desplegable 2*/
+.bck-dropdown-2 .fa-chevron-up:before {
+    content: "\f077";
+}
+.bck-dropdown-2 .fa-chevron-down:before {
+    content: "\f078";
+}
+.body_clase #actividad .bck-dropdown.bck-dropdown-2 .bck-dropdown-button {
+    background-color: #C7C5C5;
+}
+
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
