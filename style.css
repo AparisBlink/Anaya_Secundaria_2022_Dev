@@ -502,6 +502,10 @@ body #actividad a.bck-file-attach,
     font-size: 18px;
     padding: 0   
 }
+
+.bck-title p {
+    margin: 0;
+}
 .bck-box .bck-content {
     padding: 0;
 }
@@ -509,7 +513,8 @@ body #actividad a.bck-file-attach,
     text-align: inherit;
 }
 .texto_curso .bck-box p {
-    margin: 0;
+    margin: 15px 0;
+    display: block;
 }
 
 /*Caja 1 */
@@ -1574,7 +1579,11 @@ table td.bck-td-3 {
     background-color: var(--colortrans);
 }
 
-
+/*SECCIONES*/
+/*fondotransparente*/
+body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.aux-bckg.is-top .class_slide {
+    background: none;
+}
 
 /*MEDIA QUERIES */
 @media screen and (max-width: 768px) {
