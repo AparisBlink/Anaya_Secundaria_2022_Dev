@@ -23,6 +23,7 @@
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'Énfasis 03', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Énfasis 04 Serif', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 
 
 				{ name: 'Lista Ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
@@ -42,6 +43,9 @@
 				{ name: 'Cell 01', element: 'td', attributes: { 'class': 'bck-td bck-td-1'} },
 				{ name: 'Cell 02', element: 'td', attributes: { 'class': 'bck-td bck-td-2'} },
 				{ name: 'Cell 03', element: 'td', attributes: { 'class': 'bck-td bck-td-3'} },
+
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-2' } },
 
 				{ name: 'Icono Cooperativo', element: 'span', attributes: { 'class': 'icon icon-cooperativo' } },
 				{ name: 'Icono Emprendimiento', element: 'span', attributes: { 'class': 'icon icon-emprendimiento' } },
