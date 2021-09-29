@@ -532,6 +532,7 @@ body #actividad a.bck-file-attach,
 }
 .bck-box .bck-content {
     padding: 0;
+    text-align: left;
 }
 .bck-box.center {
     text-align: inherit;
