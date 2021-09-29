@@ -668,7 +668,7 @@ body:not(.edit) .bck-box p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-content {
     width: 100%;
     padding: 15px 20px 20px 20px;
-    background-color: #E5E5E5;
+    background-color: #EFEFEF;
     margin-top: -15px;
     max-height: 600px;
     font-size: 15px;
