@@ -521,7 +521,7 @@ body #actividad a.bck-file-attach,
     padding: 0   
 }
 
-.bck-title p {
+.bck-box .bck-title p {
     margin: 0;
 }
 .bck-box .bck-content {
@@ -531,6 +531,10 @@ body #actividad a.bck-file-attach,
     text-align: inherit;
 }
 .texto_curso .bck-box p {
+    margin: 15px 0;
+    display: block;
+}
+body:not(.edit) .bck-box p {
     margin: 15px 0;
     display: block;
 }
