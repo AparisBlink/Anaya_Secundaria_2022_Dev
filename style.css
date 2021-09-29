@@ -623,6 +623,27 @@ body:not(.edit) .bck-box p {
     border: 2px dashed var(--colorppal);
 }
 
+/*CAJA 4 */
+.bck-box.bck-box-4 {
+    margin: 25px 0px 20px;
+    padding: 0;
+    border: 0;
+}
+.bck-box.bck-box-4>.bck-title {
+    font-weight: normal;
+    color: var(--colorppal);
+    border: 0;
+    font-size: inherit;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.bck-box.bck-box-4>.bck-content {
+    padding: 20px;
+    border: 2px dashed var(--colorppal);
+    background-color: #FFF1D7;
+}
+
+
 /*Desplegables*/
 
 
