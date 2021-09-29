@@ -616,7 +616,26 @@ body:not(.edit) .bck-box p {
     border: 2px dashed var(--colorppal);
 }
 
-/*Desplegable*/
+/*Desplegables*/
+/*Desplegable 1 (Igual que por defecto)*/
+.bck-dropdown-1 .bck-dropdown-icon {
+    background-color: transparent;
+}
+.bck-dropdown.bck-dropdown-1 {
+    background-color: transparent;
+    border: 0;
+}
+
+/*Desplegable 2*/
+.bck-dropdown-2 .fa-chevron-up:before {
+    content: "\f077";
+}
+.bck-dropdown-2 .fa-chevron-down:before {
+    content: "\f078";
+}
+.body_clase #actividad .bck-dropdown-2 .bck-dropdown-button {
+    background-color: #C7C5C5;
+}
 
 /*---*/
 /* Content: Dropdown box */
