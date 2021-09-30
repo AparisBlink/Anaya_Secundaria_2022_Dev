@@ -573,6 +573,9 @@ body:not(.edit) .bck-box p {
     margin: 0 0 15px;
     display: block;
 }
+body:not(.edit) .bck-box p:last-of-type {
+    margin: 0;
+}
 body .bck-box .bck-title p {
     margin: 0;
 }
