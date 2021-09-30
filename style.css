@@ -532,6 +532,12 @@ body:not(.edit) .bck-file-label:before {
 .bck-enfasis-4 {
     font-family: 'PT Serif', serif;
 }
+.bck-enfasis-5 {
+    display: block;
+    border-left: 2px solid var(--colorppal);
+    padding-left: 15px;
+    font-family: "Pt Serif",serif;
+}
 
 /* ---- CAJAS ---*/
 .bck-box {
