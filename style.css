@@ -685,8 +685,23 @@ body .bck-box .bck-title p {
 }
 .bck-box-5>.bck-title {
     font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: 15px;
 }
 .bck-box-5>.bck-content {
+    font-size: 16px;
+}
+
+/*Caja 6*/
+.bck-box.bck-box-6 {
+    padding: 10px;
+}
+.bck-box-6>.bck-title {
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: 15px;
+}
+.bck-box-6>.bck-content {
     font-size: 16px;
 }
 
