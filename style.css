@@ -403,7 +403,7 @@ body #actividad a.bck-file-attach,
 	overflow-wrap: break-word;
 }
 
-.bck-file-attach:before {
+body:not(.edit) .bck-file-attach:before {
     content: "\f15b";
     background-image: none;
     background-repeat: no-repeat;
