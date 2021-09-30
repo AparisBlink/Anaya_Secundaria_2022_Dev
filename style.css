@@ -256,7 +256,7 @@ body {
 }
 
 .texto_curso p:last-of-type {
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 #actividad .texto_curso {
 	font-size: 18px;
@@ -264,7 +264,7 @@ body {
 }
 .texto_curso p {
 	line-height: 25px !important;
-	margin: 15px 0;
+	margin: 0 0 15px;
 }
 #actividad .pregunta .texto_curso {
     font-size: 18px;
@@ -566,11 +566,11 @@ body:not(.edit) .bck-file-label:before {
     text-align: inherit;
 }
 .texto_curso .bck-box p {
-    margin: 15px 0;
+    margin: 0 0 15px;
     display: block;
 }
 body:not(.edit) .bck-box p {
-    margin: 15px 0;
+    margin: 0 0 15px;
     display: block;
 }
 body .bck-box .bck-title p {
@@ -702,7 +702,6 @@ body .bck-box .bck-title p {
     margin-top: 15px;
 }
 .bck-box-6>.bck-content {
-    font-size: 16px;
 }
 
 
