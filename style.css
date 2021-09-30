@@ -632,7 +632,7 @@ body .bck-box .bck-title p {
 }
 .bck-box.bck-box-2>.bck-content, 
     .bck-box.bck-box2>.bck-content {
-    padding: 15px 20px 20px 20px;
+    padding: 5px 20px;
 }
 
 /*CAJA 3 */
@@ -650,7 +650,7 @@ body .bck-box .bck-title p {
     font-size: 30px;
 }
 .bck-box.bck-box-3>.bck-content {
-    padding: 20px;
+    padding: 5px 20px;
     border: 2px dashed var(--colorppal);
 }
 
@@ -669,7 +669,7 @@ body .bck-box .bck-title p {
     font-size: 30px;
 }
 .bck-box.bck-box-4>.bck-content {
-    padding: 20px;
+    padding: 5px 20px;
     border: 2px dashed var(--colorppal);
     background-color: #FFF1D7;
 }
