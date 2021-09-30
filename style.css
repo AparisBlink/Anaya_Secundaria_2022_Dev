@@ -419,7 +419,7 @@ body #actividad a.bck-file-attach,
 	display: none;
 }
 
-.bck-file-attach span {
+body:not(.edit) .bck-file-attach span {
     display: inline-block;
     max-width: 75%;
     text-overflow: ellipsis;
@@ -432,7 +432,7 @@ body #actividad a.bck-file-attach,
     padding: 20px 15px;
     border-radius: 10px;
 }
-.bck-file-label:before {
+body:not(.edit) .bck-file-label:before {
     content: "";
     background-image: url(images/Icono_adjuntos.png);
     position: relative;
