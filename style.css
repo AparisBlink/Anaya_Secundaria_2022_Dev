@@ -447,7 +447,7 @@ body:not(.edit) .bck-file-label:before {
 */
 
 
-body:not(.edit) .bck-file-attach img {
+.bck-file-attach img {
 	display: none;
 }
 .bck-file-label {
