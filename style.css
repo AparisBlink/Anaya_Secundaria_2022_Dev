@@ -1390,10 +1390,10 @@ hr {
     -moz-box-shadow: 1px 3px 4px var(--colortrans);
     -webkit-box-shadow: 1px 3px 4px var(--colortrans);
     box-shadow: 2px -2px 7px 0px #00000029;
-    border: 0;
+    border: 1px solid white;
     margin-bottom: 15px;
 }
-#actividad .workspace.ordenar li>p:hover {
+#actividad .workspace.ordenar li:hover {
     -moz-box-shadow: 2px 3px 6px var(--colortrans);
     -webkit-box-shadow: 2px 3px 6px var(--colortrans);
     box-shadow: 2px 3px 6px var(--colortrans);
