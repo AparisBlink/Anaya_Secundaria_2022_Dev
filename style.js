@@ -24,6 +24,7 @@
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'Énfasis 03', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 				{ name: 'Énfasis 04 Serif', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Énfasis 05 Texto citado', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 
 
 				{ name: 'Lista Ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
