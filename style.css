@@ -635,7 +635,7 @@ body .bck-box .bck-title p {
 }
 .bck-box.bck-box-2>.bck-content, 
     .bck-box.bck-box2>.bck-content {
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 /*CAJA 3 */
@@ -653,7 +653,7 @@ body .bck-box .bck-title p {
     font-size: 30px;
 }
 .bck-box.bck-box-3>.bck-content {
-    padding: 5px 20px;
+    padding: 15px 20px;
     border: 2px dashed var(--colorppal);
 }
 
@@ -672,7 +672,7 @@ body .bck-box .bck-title p {
     font-size: 30px;
 }
 .bck-box.bck-box-4>.bck-content {
-    padding: 5px 20px;
+    padding: 15px 20px;
     border: 2px dashed var(--colorppal);
     background-color: #FFF1D7;
 }
@@ -684,12 +684,10 @@ body .bck-box .bck-title p {
     box-shadow: 0 0 5px #0000003d;
     border: 0;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 20px;
 }
 .bck-box-5>.bck-title {
     font-size: 20px;
-    margin-bottom: -10px;
-    margin-top: 15px;
 }
 .bck-box-5>.bck-content {
     font-size: 16px;
@@ -697,12 +695,8 @@ body .bck-box .bck-title p {
 
 /*Caja 6*/
 .bck-box.bck-box-6 {
-    padding: 10px;
 }
 .bck-box-6>.bck-title {
-    font-size: 20px;
-    margin-bottom: -10px;
-    margin-top: 15px;
 }
 .bck-box-6>.bck-content {
 }
