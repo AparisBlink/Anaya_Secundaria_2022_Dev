@@ -389,8 +389,8 @@ body #actividad a.bck-file-attach,
     color: #000;
 }
 
-.bck-sub-label,
-.bck-file-label {
+body:not(.edit) .bck-sub-label,
+body:not(.edit) .bck-file-label {
 	background: transparent;
 	-webkit-border-radius: 5px 5px;
 	-moz-border-radius: 5px 5px;
@@ -415,7 +415,7 @@ body:not(.edit) .bck-file-attach:before {
     display: none;
 }
 
-.bck-file-attach img {
+body:not(.edit) .bck-file-attach img {
 	display: none;
 }
 
