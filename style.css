@@ -388,7 +388,7 @@ body #actividad a.bck-file-attach,
  body:not(.edit) #actividad a.bck-file-attach:not(.cke_button):not(.zoom_flag_img) {
     color: #000;
 }
-
+/*
 body:not(.edit) .bck-sub-label,
 body:not(.edit) .bck-file-label {
 	background: transparent;
@@ -433,6 +433,30 @@ body:not(.edit) .bck-file-attach span {
     border-radius: 10px;
 }
 body:not(.edit) .bck-file-label:before {
+    content: "";
+    background-image: url(images/Icono_adjuntos.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+*/
+
+
+body:not(.edit) .bck-file-attach img {
+	display: none;
+}
+.bck-file-label {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #0000004d;
+    padding: 10px;
+}
+.bck-file-label:before {
     content: "";
     background-image: url(images/Icono_adjuntos.png);
     position: relative;
