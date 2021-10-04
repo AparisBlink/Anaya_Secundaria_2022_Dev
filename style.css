@@ -934,7 +934,8 @@ content: "";
 
 #actividad .content .texto_curso .bck-ol li,
  #actividad .popover-content .bck-ol li,
-  #actividad .content .workspace ul li .bck-ol li {
+  #actividad .content .workspace ul li .bck-ol li,
+    #actividad .content .cke_contents .bck-ol li {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
