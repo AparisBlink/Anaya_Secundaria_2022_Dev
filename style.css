@@ -1403,10 +1403,10 @@ hr {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
-    -moz-box-shadow: 1px 3px 4px var(--colortrans);
-    -webkit-box-shadow: 1px 3px 4px var(--colortrans);
-    box-shadow: 2px -2px 7px 0px #00000029;
-    border: 1px solid white;
+    -moz-box-shadow: 1px 4px 7px 0px #00000029;
+    -webkit-box-shadow: 1px 4px 7px 0px #00000029;
+    box-shadow: 1px 4px 7px 0px #00000029;
+    border: 1px solid #000;
     margin-bottom: 15px;
 }
 #actividad .workspace.ordenar li:hover {
