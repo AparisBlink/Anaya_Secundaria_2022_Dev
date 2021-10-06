@@ -757,6 +757,10 @@ body .bck-box .bck-title p {
     background-color: transparent;
     border: 0;
 }
+.bck-dropdown-1 .fa-chevron-up:before,
+ .bck-dropdown-1 .fa-chevron-down:before {
+    font-size: var(--TextoGeneral);
+}
 
 /*Desplegable 2*/
 .bck-dropdown-2 .fa-chevron-up:before {
@@ -1286,6 +1290,9 @@ body.view-mode .bck-subtitles {
 }
 .video-js .vjs-progress-holder .vjs-play-progress {
     background-color: var(--colorppal);
+}
+.bck-video-container2.center:not(.external-url-player) {
+    margin: 0 auto 15px;  
 }
 
 
