@@ -7,21 +7,42 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Bold.woff') format('woff');
-    font-weight: bold;
+    src: url('fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter Semi';
+    src: url('fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter Semi';
+    src: url('fonts/Inter-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
-
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-BoldItalic.woff') format('woff');
@@ -34,7 +55,11 @@
 :root {
 	--colorppal: #FDB325;
 	--colortrans: #FDB32552;
-    --GrisAnaya: #898989
+    --GrisAnaya: #898989;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+
+    --TextoGeneral: 18px;
 }
 
 b,
@@ -259,7 +284,7 @@ body {
     margin-bottom: 0;
 }
 #actividad .texto_curso {
-	font-size: 18px;
+	font-size: var(--TextoGeneral);
 	line-height: 25px !important;
 }
 .texto_curso p {
@@ -267,7 +292,7 @@ body {
 	margin: 0 0 15px;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 .slide-wrapper {
 	text-align: left;
@@ -310,7 +335,7 @@ body {
 
 /*tamaño enunciado listas*/
 #actividad textarea {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 /*ENLACE WEB*/
@@ -480,15 +505,15 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-1, 
     .bck-title1 {
     color: var(--colorppal);
-    font-size: 24px;
+    font-size: 36px;
     font-weight: normal;
     line-height: 3.0rem;
-    margin: 10px 0 15px 0px;
+    margin: 20px 0 15px 0px;
 }
 .bck-title-2,
 .bck-title2 {
     color: #000;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     margin: 20px 0 5px 0;
 }
@@ -517,6 +542,23 @@ body:not(.edit) .bck-file-label:before {
     margin-bottom: 20px;
 }
 
+/*Estilos de párrafo*/
+.bck-p-1 {
+    font-size: 16px;
+    line-height: 23px !important;
+}
+.bck-p-2 {
+    font-family: 'PT Serif', serif;
+}
+.bck-p-3 {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    line-height: 18px !important;
+    text-align: right;
+}
+
+
+
 
 /*Énfasis */
 .bck-enfasis-1 {
@@ -534,12 +576,6 @@ body:not(.edit) .bck-file-label:before {
 .bck-enfasis-4 {
     font-family: 'PT Serif', serif;
 }
-.bck-enfasis-5 {
-    display: block;
-    border-left: 2px solid var(--colorppal);
-    padding-left: 15px;
-    font-family: "Pt Serif",serif;
-}
 
 /* ---- CAJAS ---*/
 .bck-box {
@@ -556,7 +592,7 @@ body:not(.edit) .bck-file-label:before {
     font-weight: bold;
     color: inherit;
     border: 0;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     padding: 0   
 }
 
@@ -719,7 +755,7 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
     cursor: pointer;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     padding-right: 40px;
   }
@@ -747,7 +783,7 @@ body .bck-box .bck-title p {
     color: #000;
     border: none;
     padding: 0;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-content {
@@ -791,7 +827,7 @@ body .bck-box .bck-title p {
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
 		margin: 15px 0;
-		font-size: 18px;
+		font-size: var(--TextoGeneral);
 }
 
 body:not(.edit) .bck-flipbox-face.front {
@@ -1049,7 +1085,7 @@ content: "";
     position: relative;
     background: none;
     color: #fff;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     color: #000;
     border-bottom: 0;
     font-weight: bold;
@@ -1166,7 +1202,7 @@ content: "";
     padding: 8px 14px;
     font-size: 14px;
     font-weight: bold;
-    line-height: 18px;
+    line-height: var(--TextoGeneral);
     background-color: var(--colorppal);
     border-bottom: 0;
     border-radius: 5px 5px 0 0;
@@ -1755,7 +1791,7 @@ table td.bck-td-1 {
     background-color: var(--colorppal);
     font-weight: bold;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
     background-color: #EAEAEA;
@@ -1786,16 +1822,6 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 and (max-width : 480px) {
 .texto_curso p {
     line-height: 2.8rem !important;
-}
-#actividad .texto_curso {
-    font-size: 18px;
-    line-height: 2.8rem !important;
-}
-#actividad .pregunta .texto_curso {
-    font-size: 18px;
-}
-#actividad textarea {
-    font-size: 18px;
 }
 #actividad .class_slide .review {
     text-align: center;
