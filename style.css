@@ -524,22 +524,25 @@ body:not(.edit) .bck-file-label:before {
     font-size: 18px;
     padding: 2px 5px;
     border-bottom: 2px solid;
-    font-weight: bold;
+    font-weight: 600;
 }
 .bck-title-4,
 .bck-title4 {
     font-size: 18px;
-    color: #6F727B;
-    border-top: 3px solid #E3CE9D;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding-top: 5px;
-    font-weight: 600;
+    color: #898989;
+    font-weight: bold;
+    margin: 15px 0 5px;
 }
 .bck-title-5 {
     font-size: 48px;
     color: #898989;
-    margin-bottom: 20px;
+    margin: 25px 0 30px;
+}
+.bck-title-6 {
+    font-size: 30px;
+    color: var(--colorppal);
+    text-transform: uppercase;
+    margin: 20px 0 15px;
 }
 
 /*Estilos de párrafo*/
@@ -645,12 +648,13 @@ body .bck-box .bck-title p {
     padding: 0;
 }
 
-/* CAJA 2 */
+/* CAJA 2 y CAJA 8*/
 .bck-box.bck-box-2>.bck-title:before, 
     .bck-box.bck-box2>.bck-title:before {
 	display: none;
 }
 .bck-box.bck-box-2, 
+.bck-box.bck-box-8, 
     .bck-box.bck-box2 {
     background-color: white;
     color: #231F20;
@@ -661,6 +665,7 @@ body .bck-box .bck-title p {
     border-radius: 0;
 }
  .bck-box.bck-box-2>.bck-title, 
+ .bck-box.bck-box-8>.bck-title, 
     .bck-box.bck-box2>.bck-title {
     background: var(--colorppal);
     padding: 8px 30px;
@@ -675,74 +680,149 @@ body .bck-box .bck-title p {
     color: white;
 }
 .bck-box.bck-box-2>.bck-content, 
+.bck-box.bck-box-8>.bck-content, 
     .bck-box.bck-box2>.bck-content {
     padding: 10px 20px;
 }
 
-/*CAJA 3 */
-.bck-box.bck-box-3 {
+/*CAJA 3 y CAJA 9 */
+.bck-box.bck-box-3,
+.bck-box.bck-box-9
+    {
     margin-top: 25px;
     margin-bottom: 20px;
     padding: 0;
     border: 0;
 }
-.bck-box.bck-box-3>.bck-title {
-    font-weight: normal;
+.bck-box.bck-box-3>.bck-title, 
+.bck-box.bck-box-9>.bck-title {
+    font-weight: 600;
     color: var(--colorppal);
     border: 0;
     font-size: inherit;
     margin-bottom: 12px;
     font-size: 30px;
 }
-.bck-box.bck-box-3>.bck-content {
+.bck-box.bck-box-3>.bck-content,
+.bck-box.bck-box-9>.bck-content {
     padding: 15px 20px;
     border: 2px dashed var(--colorppal);
 }
 
-/*CAJA 4 */
-.bck-box.bck-box-4 {
+/*CAJA 4 y CAJA 10 */
+.bck-box.bck-box-4,
+.bck-box.bck-box-10 {
     margin-top: 25px;
     margin-bottom: 20px;
     padding: 0;
     border: 0;
 }
-.bck-box.bck-box-4>.bck-title {
-    font-weight: normal;
+.bck-box.bck-box-4>.bck-title,
+.bck-box.bck-box-10>.bck-title {
+    font-weight: 600;
     color: var(--colorppal);
     border: 0;
     font-size: inherit;
     margin-bottom: 12px;
     font-size: 30px;
 }
-.bck-box.bck-box-4>.bck-content {
+.bck-box.bck-box-4>.bck-content, 
+    .bck-box.bck-box-10>.bck-content {
     padding: 15px 20px;
     border: 2px dashed var(--colorppal);
     background-color: #FFF1D7;
 }
 
 /*CAJA 5*/
-.bck-box.bck-box-5 {
+.bck-box.bck-box-5,
+.bck-box.bck-box-11 {
     -moz-box-shadow: 0 0 5px #0000003d;
     -webkit-box-shadow: 0 0 5px #0000003d;
     box-shadow: 0 0 5px #0000003d;
     border: 0;
-    border-radius: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     padding: 15px 20px;
 }
-.bck-box-5>.bck-title {
+.bck-box-5>.bck-title,
+.bck-box-11>.bck-title {
     font-size: 20px;
+    color: var(--colorppal);
 }
-.bck-box-5>.bck-content {
+.bck-box-5>.bck-content,
+.bck-box-11>.bck-content {
     font-size: 16px;
 }
 
 /*Caja 6*/
 .bck-box.bck-box-6 {
+    border: 0;
+    padding: 0;
 }
 .bck-box-6>.bck-title {
+    padding: 0 20px;
+    margin-bottom: 5px;
 }
 .bck-box-6>.bck-content {
+    padding: 20px;
+    border: 2px dotted var(--colorppal);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
+/*Caja 7*/
+.bck-box.bck-box-7 {
+    border: 0;
+    padding: 0;
+}
+.bck-box-7>.bck-title {
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+.bck-box-7>.bck-content {
+    padding: 20px;
+    border: 2px dotted #898989;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*Caja 8 - Reglas en Caja 2. Solo cambio de color */
+.bck-box.bck-box-8 {
+    border: 2px dashed var(--colorsecundario);
+}
+ .bck-box.bck-box-8>.bck-title {
+    background: var(--colorsecundario);
+}
+
+/*Caja 9 - Reglas en Caja 3. Solo cambio de color */
+.bck-box.bck-box-9>.bck-title {
+    color: var(--colorsecundario);
+}
+.bck-box.bck-box-9>.bck-content {
+    border: 2px dashed var(--colorsecundario);
+}
+
+/*Caja 10 - Reglas en Caja 4. Solo cambio de color */
+.bck-box.bck-box-10>.bck-title {
+    color: var(--colorsecundario);
+}
+.bck-box.bck-box-10>.bck-content {
+    border: 2px dashed var(--colorsecundario);
+    background-color: var(--colorsecundariotrans);
+}
+
+/*Caja 11 - Reglas en Caja 5. Solo cambio de color */
+.bck-box.bck-box-11 {
+    background-color: var(--colorsecundariotrans);
+}
+.bck-box-11>.bck-title {
+    font-size: 20px;
+    color: var(--colorsecundario);
+}
+
+
 
 
 /*Desplegables*/
