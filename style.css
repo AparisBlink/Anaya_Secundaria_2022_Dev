@@ -947,19 +947,36 @@ body:not(.edit) .bck-flipbox-face.front {
     align-items: center;
     justify-content: center;
     align-content: center;
+    outline: 1px solid #333333;
+    outline-offset: -15px;
 }
 body:not(.edit) .bck-flipbox-face.back {
-    color: #595959;
+    color: #333333;
     border: 2px solid #000000;
-    background: #FFF;
+    background: var(--colorsecundario);
 }
+body:not(.edit) .bck-flipbox-title,
 body:not(.edit) .bck-flipbox-section {
-    text-align: left;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: var(--TextoGeneral);
+}
+body:not(.edit) .front .bck-flipbox-title,
+ body:not(.edit) .front .bck-flipbox-section {
+    color: #ffffff;
+    font-weight: bold;
+}
+body:not(.edit) .back .bck-flipbox-title,
+ body:not(.edit) .back .bck-flipbox-section {
+    color: #333333;
+    font-size: 16px;
+
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
     margin:0;
 }
+
 body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     border: 0;
 }
