@@ -1027,7 +1027,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
 	padding-left: 20px;
 }
 #actividad .content ul.bck-ul li {
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 
@@ -1111,15 +1111,16 @@ content: "";
  #actividad .popover-content .bck-ol li:before,
  #actividad .content .workspace ul li .bck-ol li:before,
  #actividad .content .cke_contents .bck-ol li:before {
-	content: counter(bck-li-counter);
-    position: relative;
-    text-align: left;
-    font-size: 15px;
+    content: counter(bck-li-counter);
+    position: absolute;
+    text-align: right;
+    font-size: var(--TextoGeneral);
     font-family: 'Inter', sans-serif;
-	margin-left: -10px; 
-	left: 0;
-	width: auto;
+    left: -33px;
+    width: 28px;
     color: #000;
+    margin-left: -1px;
+    top: 0;
 }
 
 /*LISTA ORDENADA 1*/
