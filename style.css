@@ -1080,7 +1080,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     content: "";
     height: 2px;
     width: 7px;
-    margin-top: 10px;
+    margin-top: 12px;
 	background-color: var(--colorppal);
 }
 /*Lista desordenada 3*/
@@ -1098,7 +1098,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     content: "";
     height: 2px;
     width: 7px;
-    margin-top: 10px;
+    margin-top: 12px;
 	background-color: #000;
 }
 
