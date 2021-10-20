@@ -559,6 +559,12 @@ body:not(.edit) .bck-file-label:before {
     line-height: 18px !important;
     text-align: right;
 }
+.bck-p-4 {
+    font-family: 'PT Serif', serif;
+    border-left: 2px solid var(--colorppal);
+    padding-left: 5px;
+}
+
 
 
 
@@ -1350,12 +1356,12 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     position: relative;
     background: none;
     color: #fff;
-    font-size: var(--TextoGeneral);
+    font-size: 16px;
     color: #000;
     border-bottom: 0;
     font-weight: bold;
     background-color: var(--colorppal);
-    padding: 15px 20px 15px 15px;
+    padding: 15px 20px 10px 15px;
 }
 .info-popover .popover-content, .popover-template .popover-content {
     display: block;
