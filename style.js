@@ -34,7 +34,7 @@
 				{ name: ' T.18', element: 'h3', attributes: { 'class': 'bck-title-18'} },
 				{ name: ' T.19', element: 'h3', attributes: { 'class': 'bck-title-19'} },
 				{ name: ' T.20', element: 'h3', attributes: { 'class': 'bck-title-20'} },
-				{ name: ' T.21', element: 'h3', attributes: { 'class': 'bck-title-21'} },
+				{ name: ' T.21 Prueba', element: 'h3', attributes: { 'class': 'bck-title-21'} },
 
                 { name: 'Pa.01 Texto 16px', element: 'p', attributes: { 'class': 'bck-p-1'} },
 				{ name: 'Pa.02 Texto Citado', element: 'p', attributes: { 'class': 'bck-p-2'} },
