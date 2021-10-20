@@ -1005,7 +1005,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     margin-bottom: 10px;
     margin-left: 0;
     line-height: inherit;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     line-height: 25px !important;
 }
 #actividad .content .texto_curso .bck-ul,
@@ -1154,10 +1154,10 @@ content: "";
    #actividad .content .workspace ul li .bck-ol1 li:before {
     content: counter(bck-li-counter) ".";
     font-family: 'Inter', sans-serif;
+    font-size: var(--TextoGeneral);
     font-weight: normal;
     position: absolute;
     color: inherit;
-    font-size: 15px;
     width: 28px;
     margin-top: 0px;
     left: -33px;
@@ -1182,10 +1182,10 @@ content: "";
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
     content: counter(bck-li-counter) ".";
     font-family: 'Inter', sans-serif;
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     position: absolute;
     color: inherit;
-    font-size: 15px;
     width: 28px;
     margin-top: 0px;
     left: -33px;
@@ -1212,7 +1212,7 @@ content: "";
     font-weight: bold;
     position: absolute;
     color: var(--colorppal);
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
     left: -33px;
