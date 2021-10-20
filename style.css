@@ -1238,7 +1238,8 @@ content: "";
     border: 1px solid;
     border-radius: 50%;
     padding: 1px 6px;
-    background-color: white
+    background-color: white;
+    display: none;
 }
 
 #actividad .info-button {
@@ -1246,17 +1247,18 @@ content: "";
     width: 40px;
     height: 40px;
     margin: 0px;
-    -webkit-box-shadow:  0 0 6px #5555553d;
-    -moz-box-shadow: 0 0 6px #5555553d;
-    box-shadow: 0 0 6px #5555553d;
+    -moz-box-shadow: 0px 4px 4px #00000038;
+    -webkit-box-shadow: 0px 4px 4px #00000038;
+    box-shadow: 0px 4px 4px #00000038;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: var(--colorppal);
     color: #1a171b;
     line-height: 38px;
-	text-align: center;
-	cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(images/icono_popup.png);
+    background-position: center;
 }
 
 /*Pop-up flotante*/
@@ -1304,6 +1306,10 @@ content: "";
 .info-template .fa-info:before {
     color: #000;
 }
+.info-template .info-icon {
+    background-image: url(images/icono_popup.png);
+    background-position: center;
+}
 
 
 /*Palabras emergentes*/
@@ -1334,6 +1340,9 @@ content: "";
 }
 .popover.top>.arrow:after {
     border-top-color: var(--colortrans);
+}
+.popover.bottom>.arrow:after {
+    border-bottom-color: var(--colortrans);
 }
 
 /*TABS*/
