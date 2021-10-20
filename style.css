@@ -1109,7 +1109,8 @@ content: "";
 
 #actividad .content .texto_curso .bck-ol li:before,
  #actividad .popover-content .bck-ol li:before,
- #actividad .content .workspace ul li .bck-ol li:before {
+ #actividad .content .workspace ul li .bck-ol li:before,
+ #actividad .content .cke_contents .bck-ol li:before {
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
