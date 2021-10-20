@@ -982,8 +982,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 /*Flipbox 2*/
 body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.front,
 body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
-    width: 200px;
-    min-height: 250px;
+    width: 250px;
+    min-height: 300px;
 }
 
 /*----*/
