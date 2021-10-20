@@ -2040,7 +2040,7 @@ table,
 table td,
 .bck-table td {
 	border-color: #000;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 .bck-table-1 {
@@ -2070,7 +2070,6 @@ table td.bck-td-1 {
     background-color: var(--colorppal);
     font-weight: bold;
     text-align: center;
-    font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
     background-color: var(--colortrans);
