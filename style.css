@@ -1235,17 +1235,113 @@ content: "";
  #actividad .popover-content ol.bck-ol-4 li:before,
   #actividad .content .workspace ul li ol.bck-ol-4 li:before {
     content: counter(bck-li-counter) ".º";
-    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+/*Lista ordenada 5*/
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .texto_curso .bck-ol-5 li,
+ #actividad .popover-content .bck-ol-5 li,
+  #actividad .content .workspace ul li .bck-ol-5 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-5 li:before,
+#actividad .content .texto_curso ol.bck-ol-5 li:before,
+ #actividad .popover-content ol.bck-ol-5 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-5 li:before {
+    content: counter(bck-li-counter,lower-alpha) ".";
+    color: #000;
+}
+/*Lista ordenada 6*/
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .texto_curso .bck-ol-6 li,
+ #actividad .popover-content .bck-ol-6 li,
+  #actividad .content .workspace ul li .bck-ol-6 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-6 li:before,
+#actividad .content .texto_curso ol.bck-ol-6 li:before,
+ #actividad .popover-content ol.bck-ol-6 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-6 li:before {
+    content: counter(bck-li-counter,lower-alpha) ".";
+    color: #000;
     font-weight: bold;
-    position: absolute;
+}
+/*Lista ordenada 7*/
+#actividad .content .cke_contents .bck-ol-7 li,
+#actividad .content .texto_curso .bck-ol-7 li,
+ #actividad .popover-content .bck-ol-7 li,
+  #actividad .content .workspace ul li .bck-ol-7 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-7 li:before,
+#actividad .content .texto_curso ol.bck-ol-7 li:before,
+ #actividad .popover-content ol.bck-ol-7 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-7 li:before {
+    content: counter(bck-li-counter,lower-alpha) ".";
     color: var(--colorppal);
-    font-size: 15px;
-    width: 28px;
-    margin-top: 0px;
-    left: -33px;
-    top: 0px;
-    margin-left: -1px;
-    text-align: right;
+    font-weight: bold;
+}
+/*Lista ordenada 8*/
+#actividad .content .cke_contents .bck-ol-8 li,
+#actividad .content .texto_curso .bck-ol-8 li,
+ #actividad .popover-content .bck-ol-8 li,
+  #actividad .content .workspace ul li .bck-ol-8 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-8 li:before,
+#actividad .content .texto_curso ol.bck-ol-8 li:before,
+ #actividad .popover-content ol.bck-ol-8 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-8 li:before {
+    content: counter(bck-li-counter,lower-alpha) ")";
+    color: #000;
+}
+/*Lista ordenada 9*/
+#actividad .content .cke_contents .bck-ol-9 li,
+#actividad .content .texto_curso .bck-ol-9 li,
+ #actividad .popover-content .bck-ol-9 li,
+  #actividad .content .workspace ul li .bck-ol-9 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-9 li:before,
+#actividad .content .texto_curso ol.bck-ol-9 li:before,
+ #actividad .popover-content ol.bck-ol-9 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-9 li:before {
+    content: counter(bck-li-counter,lower-alpha) ")";
+    color: #000;
+    font-weight: bold;
+}
+/*Lista ordenada 10*/
+#actividad .content .cke_contents .bck-ol-10 li,
+#actividad .content .texto_curso .bck-ol-10 li,
+ #actividad .popover-content .bck-ol-10 li,
+  #actividad .content .workspace ul li .bck-ol-10 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-10 li:before,
+#actividad .content .texto_curso ol.bck-ol-10 li:before,
+ #actividad .popover-content ol.bck-ol-10 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-10 li:before {
+    content: counter(bck-li-counter,lower-alpha) ")";
+    color: var(--colorppal);
+    font-weight: bold;
 }
 
 /*CAJA POP-UP*/
