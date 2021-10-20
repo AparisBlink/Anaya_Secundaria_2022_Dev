@@ -1087,11 +1087,9 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
 #actividad .content .texto_curso .bck-ul-3 li::before,
 #actividad .content .cke_contents .bck-ul-3 li::before,
  #actividad .content .workspace ul li .bck-ul-3 li::before {
-    content: "";
-    height: 2px;
-    width: 7px;
-    margin-top: 10px;
 	background-color: #000;
+	color: #000;
+
 }
 /*Lista desordenada 4*/
 #actividad .content .texto_curso .bck-ul-4 li::before,
