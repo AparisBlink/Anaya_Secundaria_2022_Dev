@@ -39,7 +39,7 @@
                 { name: 'Pa.01 Texto 16px', element: 'p', attributes: { 'class': 'bck-p-1'} },
 				{ name: 'Pa.02 Texto Citado', element: 'p', attributes: { 'class': 'bck-p-2'} },
 				{ name: 'Pa.03 Texto Pie', element: 'p', attributes: { 'class': 'bck-p-3'} },
-				{ name: 'Pa.04', element: 'p', attributes: { 'class': 'bck-p-4'} },
+				{ name: 'Pa.04 Barra Lateral', element: 'p', attributes: { 'class': 'bck-p-4'} },
 				{ name: 'Pa.05', element: 'p', attributes: { 'class': 'bck-p-5'} },
 				{ name: 'Pa.06', element: 'p', attributes: { 'class': 'bck-p-6'} },
 				{ name: 'Pa.07', element: 'p', attributes: { 'class': 'bck-p-7'} },
