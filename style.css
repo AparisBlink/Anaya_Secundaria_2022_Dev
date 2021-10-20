@@ -565,7 +565,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-p-4 {
     font-family: 'PT Serif', serif;
     border-left: 2px solid var(--colorppal);
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 
