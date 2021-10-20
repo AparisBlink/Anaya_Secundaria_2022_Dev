@@ -928,6 +928,10 @@ body .bck-box .bck-title p {
 body:not(.edit) .bck-flipbox-face.front,
 body:not(.edit) .bck-flipbox-face.back {
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 body:not(.edit) .bck-flipbox {
@@ -943,10 +947,6 @@ body:not(.edit) .bck-flipbox-face.front {
     color: white;
     background-color: var(--colorppal);
     padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     outline: 1px solid #333333;
     outline-offset: -15px;
 }
