@@ -1103,7 +1103,8 @@ content: "";
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 20px;
 }
 
 #actividad .content .texto_curso .bck-ol li:before,
@@ -1117,6 +1118,7 @@ content: "";
 	margin-left: -10px; 
 	left: 0;
 	width: auto;
+    color: #000;
 }
 
 /*LISTA ORDENADA 1*/
@@ -1176,9 +1178,9 @@ content: "";
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
  #actividad .popover-content ol.bck-ol-2 li:before,
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
+    content: counter(bck-li-counter) ".";
     font-family: 'Inter', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     position: absolute;
     color: inherit;
     font-size: 15px;
@@ -1189,7 +1191,60 @@ content: "";
     margin-left: -1px;
     text-align: right;
 }
-
+/*Lista ordenada 3*/
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+ #actividad .popover-content .bck-ol-3 li,
+  #actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
+ #actividad .popover-content ol.bck-ol-3 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter) ".";
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: var(--colorppal);
+    font-size: 15px;
+    width: 28px;
+    margin-top: 0px;
+    left: -33px;
+    top: 0px;
+    margin-left: -1px;
+    text-align: right;
+}
+/*Lista ordenada 4*/
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+ #actividad .popover-content .bck-ol-4 li,
+  #actividad .content .workspace ul li .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 20px;
+}
+#actividad .content .cke_contents ol.bck-ol-4 li:before,
+#actividad .content .texto_curso ol.bck-ol-4 li:before,
+ #actividad .popover-content ol.bck-ol-4 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-4 li:before {
+    content: counter(bck-li-counter) ".º";
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: var(--colorppal);
+    font-size: 15px;
+    width: 28px;
+    margin-top: 0px;
+    left: -33px;
+    top: 0px;
+    margin-left: -1px;
+    text-align: right;
+}
 
 /*CAJA POP-UP*/
 .info-popover .popover-title:before,
