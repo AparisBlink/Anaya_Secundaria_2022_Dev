@@ -953,7 +953,7 @@ body:not(.edit) .bck-flipbox-face.front {
 body:not(.edit) .bck-flipbox-face.back {
     color: #333333;
     border: 2px solid #000000;
-    background: var(--colorsecundario);
+    background: var(--colorsecundariotrans);
 }
 body:not(.edit) .bck-flipbox-title,
 body:not(.edit) .bck-flipbox-section {
