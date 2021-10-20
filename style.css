@@ -2073,10 +2073,23 @@ table td.bck-td-1 {
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
-    background-color: #EAEAEA;
+    background-color: var(--colortrans);
+    text-align: center;
+    font-weight: bold;
 }
 table td.bck-td-3 {
-    background-color: var(--colortrans);
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+table td.bck-td-4 {
+    font-size: 16px;
+    background-color: #F1F3F9;
+    text-align: center;
+}
+table td.bck-td-5 {
+    font-size: 16px;
+    text-align: center;
 }
 
 /*SECCIONES*/
