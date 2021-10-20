@@ -54,7 +54,7 @@
 
 :root {
 	--colorppal: #FDB325;
-	--colortrans: #FDB32552;
+	--colortrans: #FEE7B9;
     --GrisAnaya: #898989;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
@@ -1307,9 +1307,14 @@ content: "";
 
 
 /*Palabras emergentes*/
-.popover.top {
+.bck-tooltip {
+    color: var(--colorppal);
+    text-decoration: none;
+    font-weight: bold;
+}
+.popover {
     margin-top: -10px;
-    background-color: var(--colorppal);
+    background-color: var(--colortrans);
     font-size: 14px;
     line-height: 19px;
     border: 0;
@@ -1320,7 +1325,7 @@ content: "";
     font-size: 14px;
     font-weight: bold;
     line-height: var(--TextoGeneral);
-    background-color: var(--colorppal);
+    background-color: var(--colortrans);
     border-bottom: 0;
     border-radius: 5px 5px 0 0;
 }
@@ -1328,7 +1333,7 @@ content: "";
     padding: 0px 14px 10px 14px;
 }
 .popover.top>.arrow:after {
-    border-top-color: var(--colorppal);
+    border-top-color: var(--colortrans);
 }
 
 /*TABS*/
