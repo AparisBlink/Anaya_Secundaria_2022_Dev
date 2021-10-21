@@ -1543,9 +1543,9 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background-position: 50%;
     display: inline-block;
     vertical-align: middle;
-    height: 30px;
-    width: 35px;
-    margin-top: 0;
+    height: 24px;
+    width: 34px;
+    margin: 0 4px;
 }
 
 .item-container .icon-cooperativo:before {
