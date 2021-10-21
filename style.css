@@ -1543,47 +1543,52 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background-position: 50%;
     display: inline-block;
     vertical-align: middle;
-    height: 40px;
-    width: 54px;
+    height: 30px;
+    width: 35px;
     margin-top: 0;
 }
 
-.item-container .icon-tic:before {
-    background-image: url(images/icono_tic.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
 .item-container .icon-cooperativo:before {
-    background-image: url(images/icono_cooperativo.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
+    background-image: url(images/icon_cooperativo.png);
 }
-.item-container .icon-emprendimiento:before {
+.item-container .icon-emocional:before {
+    background-image: url(images/icono_emocional.png);
+}
+.item-container .icon_emprendimiento:before {
     background-image: url(images/icono_emprendimiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
 }
-.item-container .icon-ods:before {
+.item-container .icon_evaluacion:before {
+    background-image: url(images/icono_evaluacion.png);
+}
+.item-container .icon_listening:before {
+    background-image: url(images/icono_listening.png);
+}
+.item-container .icon_ods:before {
     background-image: url(images/icono_ods.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
 }
-.item-container .icon-pensamiento:before {
+.item-container .icon_orientacion_profesional:before {
+    background-image: url(images/icono_orientacion_profesional.png);
+}
+.item-container .icon_pensamiento:before {
     background-image: url(images/icono_pensamiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
 }
-.item-container .icon-plc:before {
+.item-container .icon_plc:before {
     background-image: url(images/icono_plc.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
 }
+.item-container .icon_reading:before {
+    background-image: url(images/icono_reading.png);
+}
+.item-container .icon_speaking:before {
+    background-image: url(images/icono_speaking.png);
+}
+.item-container .icon_tic:before {
+    background-image: url(images/icono_tic.png);
+}
+.item-container .icon_writing:before {
+    background-image: url(images/icono_writing.png);
+}
+
+
 
 /*Lupa para imágenes*/
 body:not(.edit) #actividad a.zoom_flag_img {
