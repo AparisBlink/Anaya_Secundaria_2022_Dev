@@ -1098,7 +1098,8 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     height: 2px;
     width: 7px;
     margin-top: 12px;
-	background-color: var(--colorppal);
+    background-color: var(--colorppal);
+    border-radius: 0;
 }
 /*Lista desordenada 3*/
 #actividad .content .texto_curso .bck-ul-3 li::before,
@@ -1116,7 +1117,8 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     height: 2px;
     width: 7px;
     margin-top: 12px;
-	background-color: #000;
+    background-color: #000;
+    border-radius:0;
 }
 
 
