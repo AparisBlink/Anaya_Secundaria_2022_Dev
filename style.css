@@ -1532,6 +1532,18 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 	background-color: #F8F8F8;
 }
 
+/*Ajuste de GRIDS*/
+/*Igualamos el margin-bottom de los párrafos*/
+.row {
+    margin-bottom: 15px;
+}
+.js--second-row,
+ .js--third-row,
+  .js--fourth-row {
+    padding-left: 30px;
+}
+/*---*/
+
 /*-- ICONOS --*/
 .item-container .icon:before {
     content: "";
