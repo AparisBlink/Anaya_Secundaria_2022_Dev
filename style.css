@@ -1537,10 +1537,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .row {
     margin-bottom: 15px;
 }
+@media (min-width: 580px) {
 .js--second-row,
  .js--third-row,
   .js--fourth-row {
-    padding-left: 30px;
+    padding-left: 60px;
+}
 }
 /*---*/
 
