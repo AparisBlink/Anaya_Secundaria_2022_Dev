@@ -1366,7 +1366,8 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     background-color: var(--colorppal);
     padding: 15px 20px 10px 15px;
 }
-.info-popover .popover-content, .popover-template .popover-content {
+.info-popover .popover-content,
+ .popover-template .popover-content {
     display: block;
     background: #fff;
     padding: 10px 15px;
@@ -1538,11 +1539,11 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin-bottom: 15px;
 }
 @media (min-width: 580px) {
-.js--second-row,
- .js--third-row,
-  .js--fourth-row {
-    padding-left: 60px;
-}
+    .js--second-row:not(.col-sm-3),
+     .js--third-row:not(.col-sm-3),
+      .js--fourth-row:not(.col-sm-3) {
+        padding-left: 60px;
+    }
 }
 /*---*/
 
