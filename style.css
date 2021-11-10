@@ -1012,7 +1012,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
   .cke_contents ul, .cke_contents ol, .popover-content ul, .popover-content ol {
     margin: 15px 0 15px 0px;
-    padding: 0;
+    padding: 0 0 0 25px;
 }
 #actividad .texto_curso li,
  #actividad .workspace ul li li {
@@ -1035,7 +1035,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
 #actividad .content .cke_contents .bck-ul,
  #actividad .content .texto_curso .bck-ol,
  #actividad .content .cke_contents .bck-ol {
-    padding: 0;
+    padding: 0 0 0 25px;
 }
 /*--*/
 
