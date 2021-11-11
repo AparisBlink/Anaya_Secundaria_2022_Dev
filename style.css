@@ -545,12 +545,54 @@ body:not(.edit) .bck-file-label:before {
     color: #898989;
     margin: 25px 0 30px;
 }
-.bck-title-6 {
+.bck-title-6,
+.bck-title-8{
     font-size: 30px;
     color: var(--colorppal);
-    margin: 20px 0 5px;
+    margin: 15px 0 5px;
     border-bottom: 2px dashed var(--colorppal);
 }
+.bck-title-8 {
+    color: #000;
+    border-bottom: 2px dashed #000;
+}
+.bck-title-7, 
+.bck-title-9 {
+    font-size: var(--TextoGeneral);
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--colorppal);
+    -webkit-width: fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: block;
+    margin: 15px 0 5px 20px;
+}
+.bck-title-7:before,
+.bck-title-9:before {
+    content: "";
+    height: 3px;
+    left: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 2px dashed var(--colorppal);
+    position: absolute;
+    margin-top: 7px;
+    z-index: -2;
+}
+.bck-title-9 {
+    background-color: #000;
+}
+.bck-title-9:before {
+    border-bottom: 2px dashed #000;
+}
+
+
+
+
+
 
 /*Estilos de párrafo*/
 .bck-p-1 {
