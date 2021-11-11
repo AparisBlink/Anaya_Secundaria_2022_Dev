@@ -514,7 +514,7 @@ body:not(.edit) .bck-file-label:before {
     color: var(--colorppal);
     font-size: 36px;
     font-weight: normal;
-    line-height: 3.0rem;
+    line-height: 4.0rem;
     margin: 20px 0 15px 0px;
 }
 .bck-title-2,
@@ -2170,4 +2170,12 @@ and (max-width : 480px) {
 #actividad .workspace.test .respuestas li {
     width: 70%;
 }	
+}
+
+/*Coursetags*/
+:root {
+	--colorppal: #FDB325;
+	--colortrans: #FEE7B9;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
 }
