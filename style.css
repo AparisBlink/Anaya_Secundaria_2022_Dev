@@ -551,6 +551,7 @@ body:not(.edit) .bck-file-label:before {
     color: var(--colorppal);
     margin: 15px 0 5px;
     border-bottom: 2px dashed var(--colorppal);
+    padding-bottom: 5px;
 }
 .bck-title-8 {
     color: #000;
