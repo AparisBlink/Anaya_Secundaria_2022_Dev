@@ -548,8 +548,8 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-6 {
     font-size: 30px;
     color: var(--colorppal);
-    text-transform: uppercase;
-    margin: 20px 0 15px;
+    margin: 20px 0 5px;
+    border-bottom: 2px dashed var(--colorppal);
 }
 
 /*Estilos de párrafo*/
