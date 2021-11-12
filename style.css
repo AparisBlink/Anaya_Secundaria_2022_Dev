@@ -305,6 +305,18 @@ body {
  .body_clase.view-mode .content-wrapper {
     padding-bottom: 0;
 }
+
+/*Ajuste de los espacios en la slide concatenada*/
+#actividad .slide-concatenate .class_slide.slide_content_type_24,
+#actividad .slide-concatenate .class_slide.slide_content_type_1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#actividad .slide-concatenate .class_slide {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*MODIFICACIONES MARGENES SLIDES Y AJUSTE IMAGENES AUXILIARES*/
 #actividad .carousel-inner .item-container {
     background-image: none;
