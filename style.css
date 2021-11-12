@@ -993,6 +993,7 @@ body:not(.edit) .bck-flipbox-face.back {
 body:not(.edit) .bck-flipbox {
 		margin: 15px 0;
 		font-size: var(--TextoGeneral);
+        width: 100%;
 }
 
 body:not(.edit) .bck-flipbox-face.front {
@@ -1026,7 +1027,6 @@ body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #333333;
     font-size: 16px;
-
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
