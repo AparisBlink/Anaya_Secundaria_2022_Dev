@@ -1594,6 +1594,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 /*Ajuste de GRIDS*/
 /*Igualamos el margin-bottom de los párrafos*/
+/*
 .row {
     margin-bottom: 15px;
 }
@@ -1604,6 +1605,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
         padding-left: 60px;
     }
 }
+*/
 /*---*/
 
 /*-- ICONOS --*/
