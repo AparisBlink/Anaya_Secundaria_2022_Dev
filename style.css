@@ -561,7 +561,8 @@ body:not(.edit) .bck-file-label:before {
     margin: 25px 0 30px;
 }
 .bck-title-6,
-.bck-title-8{
+.bck-title-8,
+.bck-title-10 {
     font-size: 30px;
     color: var(--colorppal);
     margin: 15px 0 5px;
@@ -571,6 +572,9 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-8 {
     color: #000;
     border-bottom: 2px dashed #000;
+}
+.bck-title-10 {
+    border-bottom: 2px solid var(--colorppal);
 }
 .bck-title-7, 
 .bck-title-9 {
