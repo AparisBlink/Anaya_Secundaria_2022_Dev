@@ -609,7 +609,55 @@ body:not(.edit) .bck-file-label:before {
     border-bottom: 2px dashed #000;
 }
 
-
+.bck-title-11 {
+    font-size: var(--TextoGeneral);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--colorppal);
+    padding: 8px 20px;
+    border: 2px solid var(--colorppal);
+    margin: 20px 0;
+}
+.bck-title-12 {
+    font-size: var(--TextoGeneral);
+    color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--colortrans);
+    padding: 8px 20px;
+    border: 2px solid var(--colorppal);
+    margin: 10px 0;
+}
+.bck-title-13 {
+    font-size: var(--TextoGeneral);
+    color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 8px 20px;
+    border: 2px solid var(--colorppal);
+    margin: 10px 0;
+}
+.bck-title-14 {
+    font-size: var(--TextoGeneral);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--colorppal);
+    padding: 10px;
+    margin: 0;
+    min-height: 40px;
+    min-width: 40px;
+    width: fit-content;
+    width: -moz-fit-content;
+    border-radius: 50%;
+    display: block;
+}
 
 
 
