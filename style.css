@@ -629,7 +629,7 @@ body:not(.edit) .bck-file-label:before {
     background-color: var(--colortrans);
     padding: 8px 20px;
     border: 2px solid var(--colorppal);
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .bck-title-13 {
     font-size: var(--TextoGeneral);
@@ -640,7 +640,7 @@ body:not(.edit) .bck-file-label:before {
     background-color: #fff;
     padding: 8px 20px;
     border: 2px solid var(--colorppal);
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .bck-title-14 {
     font-size: var(--TextoGeneral);
