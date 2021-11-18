@@ -181,6 +181,7 @@
 				{ name: 'Icono Evaluacion', element: 'span', attributes: { 'class': 'icon icon_evaluacion' } },
 				{ name: 'Icono Listening', element: 'span', attributes: { 'class': 'icon icon_listening' } },
 				{ name: 'Icono ODS', element: 'span', attributes: { 'class': 'icon icon_ods' } },
+				{ name: 'Icono Orientacion Profesional', element: 'span', attributes: { 'class': 'icon icon_orientacion_profesional' } },
 				{ name: 'Icono Pensamiento', element: 'span', attributes: { 'class': 'icon icon_pensamiento' } },
 				{ name: 'Icono PLC', element: 'span', attributes: { 'class': 'icon icon_plc' } },
 				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon_reading' } },
