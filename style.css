@@ -530,7 +530,7 @@ body:not(.edit) .bck-file-label:before {
     font-size: 36px;
     font-weight: normal;
     line-height: 4.0rem;
-    margin: 20px 0 15px 0px;
+    margin: 15px 0 40px 0px;
 }
 .bck-title-2,
 .bck-title2 {
