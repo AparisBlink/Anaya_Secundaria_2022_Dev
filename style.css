@@ -1180,6 +1180,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul {
     padding: 0 0 0 0;
+    margin-left: -5px;
 }
 
 .texto_curso ul li {
