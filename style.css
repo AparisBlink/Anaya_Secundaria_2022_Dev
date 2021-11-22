@@ -1168,8 +1168,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     counter-reset: bck-li-counter;
     margin: 15px 0 15px 0px;
 }
-#actividad .content .texto_curso .bck-ul,
-#actividad .content .cke_contents .bck-ul,
+
  #actividad .content .texto_curso .bck-ol,
  #actividad .content .cke_contents .bck-ol {
     padding: 0 0 0 25px;
@@ -1177,6 +1176,11 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
 /*--*/
 
 /*LISTAS DESORDENADAS*/
+#actividad .content .texto_curso .bck-ul,
+#actividad .content .cke_contents .bck-ul {
+    padding: 0 0 0 0;
+}
+
 .texto_curso ul li {
 	padding-left: 20px;
 }
