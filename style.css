@@ -1682,6 +1682,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .row {
     margin-bottom: 15px;
 }
+
+.js--first-row:not(.col-sm-3),
+.js--second-row:not(.col-sm-3),
+.js--third-row:not(.col-sm-3) {
+     margin-bottom: 15px;
+ }
 /*
 @media (min-width: 580px) {
     .js--second-row:not(.col-sm-3),
