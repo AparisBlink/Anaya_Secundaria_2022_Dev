@@ -1677,13 +1677,12 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 }
 
 /*Ajuste de GRIDS*/
-/*Igualamos el margin-bottom de los párrafos*/
 
+/*Igualamos el margin-bottom de los párrafos*/
+/*
 .row {
     margin-bottom: 15px;
 }
-
-/*
 @media (min-width: 580px) {
     .js--second-row:not(.col-sm-3),
      .js--third-row:not(.col-sm-3),
