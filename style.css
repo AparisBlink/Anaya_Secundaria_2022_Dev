@@ -403,12 +403,13 @@ body:not(.edit) #actividad .content .header {
 }
 
 .bck-i-fullscreen figcaption {
-	margin-top: -20px;
+	margin-top: -10px;
 	border-bottom: 0;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	background: transparent;
+    line-height: 19px;
 }
 
 /*Icono audio*/
@@ -2039,7 +2040,7 @@ hr {
     padding: 0 5px;
 }
 
-#actividad .markword-active {
+#actividad .markwords:not(.markword-active,.markword-false).markword-active {
     border-radius: 0px !important;
     padding: 0 5px !important;
     border: 2px solid var(--colorppal) !important;
