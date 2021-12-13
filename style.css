@@ -714,6 +714,23 @@ body:not(.edit) .bck-file-label:before {
     color: #000;
     font-weight: bold;
 }
+.bck-enfasis-7 {
+    color: #f7941d;
+    font-weight: bold;
+}
+.bck-enfasis-8 {
+    color: #0071bb;
+    font-weight: bold;
+}
+.bck-enfasis-9 {
+    color: #00a651;
+    font-weight: bold;
+}
+.bck-enfasis-10 {
+    color: #BF814C;
+    font-weight: bold;
+}
+
 
 /* ---- CAJAS ---*/
 .bck-box {
