@@ -1796,37 +1796,37 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .item-container .icon-emocional:before {
     background-image: url(images/icono_emocional.png);
 }
-.item-container .icon_emprendimiento:before {
+.item-container .icon-emprendimiento:before {
     background-image: url(images/icono_emprendimiento.png);
 }
-.item-container .icon_evaluacion:before {
+.item-container .icon-evaluacion:before {
     background-image: url(images/icono_evaluacion.png);
 }
-.item-container .icon_listening:before {
+.item-container .icon-listening:before {
     background-image: url(images/icono_listening.png);
 }
-.item-container .icon_ods:before {
+.item-container .icon-ods:before {
     background-image: url(images/icono_ods.png);
 }
-.item-container .icon_orientacion_profesional:before {
+.item-container .icon-orientacion_profesional:before {
     background-image: url(images/icono_orientacion_profesional.png);
 }
-.item-container .icon_pensamiento:before {
+.item-container .icon-pensamiento:before {
     background-image: url(images/icono_pensamiento.png);
 }
-.item-container .icon_plc:before {
+.item-container .icon-plc:before {
     background-image: url(images/icono_plc.png);
 }
-.item-container .icon_reading:before {
+.item-container .icon-reading:before {
     background-image: url(images/icono_reading.png);
 }
-.item-container .icon_speaking:before {
+.item-container .icon-speaking:before {
     background-image: url(images/icono_speaking.png);
 }
-.item-container .icon_tic:before {
+.item-container .icon-tic:before {
     background-image: url(images/icono_tic.png);
 }
-.item-container .icon_writing:before {
+.item-container .icon-writing:before {
     background-image: url(images/icono_writing.png);
 }
 
