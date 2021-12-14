@@ -1132,6 +1132,22 @@ body .bck-box .bck-title p {
     background-color: #C7C5C5;
 }
 
+/*Desplegable 3*/
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-titulo {
+    font-weight:normal;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
+    background-color: #CDCDCD;
+    border-radius: 5px;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-content {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox-face.front,
