@@ -686,7 +686,7 @@ body:not(.edit) .bck-file-label:before {
 }
 
 .bck-title-16 {
-    background: url(images/circulo_kraft.png);
+    background-image: url(images/circulo_kraft.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
