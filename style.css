@@ -690,7 +690,8 @@ body:not(.edit) .bck-file-label:before {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 5px 0;
+    margin: 5px auto;
+    background-color: #bf814c;
 }
 
 
