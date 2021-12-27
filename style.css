@@ -58,6 +58,7 @@
     --GrisAnaya: #898989;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
+    --TextoFondoColor:#fff;
 
     --TextoGeneral: 18px;
     --LineHeightGen: 29px;
@@ -100,7 +101,7 @@ strong {
     }
     body #indice .units ul li.active:hover:not(.disabled) {
         background: var(--colorppal);
-        color: #FFF;
+        color: var(--TextoFondoColor);
     }
 
     #indice .units ul li a:not(.delete) {
@@ -131,6 +132,7 @@ strong {
 
     #indice .unit-content .header.default {
         background: var(--colorppal) !important;
+        color: var(--TextoFondoColor);
     }
     #indice a:hover,
     #indice a:active,
@@ -159,12 +161,12 @@ strong {
     }
     body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
         background: var(--colorppal);
-        color: #000;
+        color: var(--TextoFondoColor);
     }
     #book-index #indice .units ul li a:hover .title {
         margin: 0;
         font-size: 16px;
-        color: #000;
+        color: var(--TextoFondoColor);
     }
     #book-index .col-main {
         background: var(--colorppal);
@@ -2424,9 +2426,55 @@ and (max-width : 480px) {
 }
 
 /*Coursetags*/
-:root {
-	--colorppal: #FDB325;
-	--colortrans: #FEE7B9;
+.coursetag_bruno_bg {
+	--colorppal: #009739;
+	--colortrans: #C7FEB9;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
+}
+
+.coursetag_bruno_fq {
+	--colorppal: #005EB8;
+	--colortrans: #B9E9FE;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+}
+.coursetag_bruno_mates {
+	--colorppal: #528799;
+	--colortrans: #B9FAFE;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+}
+.coursetag_algaida_lengua_eso {
+	--colorppal: #72B1AA;
+	--colortrans: #C3FBF5;
+    --colorsecundario: #6FA43A;
+    --colorsecundariotrans: #B2FF66;
+}
+.coursetag_algaida_gh {
+    --colorppal: #D37C01;
+	--colortrans: #FFEDD2;
+    --colorsecundario: #E3AE49;
+    --colorsecundariotrans: #FFF9ED;
+}
+.coursetag_algaida_hmc {
+    --colorppal: #EAC046;
+	--colortrans: #FFE69D;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+}
+.coursetag_algaida_literatura {
+    --colorppal: #D58A8B;
+	--colortrans: #FED3D3;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+}
+.coursetag_lengua_bach {
+    --colorppal: #7EACCA;
+	--colortrans: #C0D1DC;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+}
+.coursetag_barcanova {
+
 }
