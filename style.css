@@ -1163,6 +1163,10 @@ body .bck-box .bck-title p {
     font-size: 16px;
 }
 
+/*Desplegable 4*/
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-button {
+    background: url(images/fondo_craft_hor.png)
+}
 
 /*---*/
 /*Flipbox*/
