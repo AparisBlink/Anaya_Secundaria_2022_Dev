@@ -178,7 +178,7 @@ strong {
     }
     #book-index .units ul li a .title {
         padding: 12px 0px;
-        color: var(--TextoFondoSec);
+        color: #000;
     }
     #book-index #indice .unit-content .content .title-buttons .btn {
         background: #fff;
@@ -2199,6 +2199,14 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     background-color: #e7ffd1;
     border-bottom: 2px solid #74d320;
 }
+
+/*Dibujo*/
+.slide_content_type_35 .tools .active,
+ .slide_content_type_29 .tools .active {
+    background-color: var(--colorppal);
+}
+
+
 /*parejas cartas*/
 #actividad .workspace.memory .flip-container p {
 	font-size: 1.5rem;
