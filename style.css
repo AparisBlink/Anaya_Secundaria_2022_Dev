@@ -2206,6 +2206,33 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     background-color: var(--colorppal);
 }
 
+/*Análsis sintáctico*/
+#actividad .workspace.syntax .sintaxis_adder .filled {
+    border: 1px solid var(--colorppal);
+}
+#actividad .workspace.syntax .filled:before,
+ #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
+    background-color: var(--colorppal);
+}
+#actividad .workspace.syntax .circulo {
+    color: var(--TextoFondo);
+}
+#actividad .workspace.syntax .bloque.filled {
+    border-bottom: 2px var(--colorppal) solid;
+    border-left: 2px var(--colorppal) solid;
+    border-right: 2px var(--colorppal) solid;
+}
+#actividad .workspace.syntax .sintaxis_adder .respuesta_ko.filled {
+    border: 1px solid #ef0c24;
+}
+#actividad .workspace.syntax .sintaxis_adder .respuesta_ok.filled {
+    border: 1px solid #74d320;
+}
+#actividad .workspace.syntax .sintaxis_adder .select.filled {
+    border: 1px solid #00bdff;
+}
+
+
 
 /*parejas cartas*/
 #actividad .workspace.memory .flip-container p {
