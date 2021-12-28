@@ -2379,13 +2379,13 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-solution,
 .btn-solution.disabled,
 .btn-solution[disabled] {
-    color: #005472;
-    background-color: #fff;
-    border: 2px solid #00bdff;
+    color: #002937;
+    background-color: #b6ecff;
+    border: 0;
     border-radius: 5px;
     font-weight: 700;
     font-size: 16px;
-    padding: 8px 15px;
+    padding: 10px 15px;
 }
 .btn-next:active,
 .btn-next:focus,
