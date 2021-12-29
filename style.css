@@ -1858,6 +1858,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin: 0 auto;
 }
 .item-container .icon-audiovisuales:before {
+    display: block;
+    margin: 0 auto;
     background-image: url(images/icono_audiovisuales.png);
     width: 60px;
     height: 60px;
@@ -1867,6 +1869,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin: 0 auto;
 }
 .item-container .icon-interactivas:before {
+    display: block;
+    margin: 0 auto;
     background-image: url(images/icono_interactivas.png);
     width: 60px;
     height: 60px;
@@ -1876,6 +1880,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin: 0 auto;
 }
 .item-container .icon-pensamientovisual:before {
+    display: block;
+    margin: 0 auto;
     background-image: url(images/icono_pensamientovisual.png);
     width: 60px;
     height: 60px;
@@ -1885,6 +1891,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin: 0 auto;
 }
 .item-container .icon-programasysimulaciones:before {
+    display: block;
+    margin: 0 auto;
     background-image: url(images/icono_programasysimulaciones.png);
     width: 60px;
     height: 60px;
@@ -1894,6 +1902,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin: 0 auto;
 }
 .item-container .icon-infoydoc:before {
+    display: block;
+    margin: 0 auto;
     background-image: url(images/icono_infoydoc.png);
     width: 60px;
     height: 60px;
