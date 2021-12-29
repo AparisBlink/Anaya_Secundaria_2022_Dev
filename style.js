@@ -188,6 +188,11 @@
 				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
 				{ name: 'Icono TIC', element: 'span', attributes: { 'class': 'icon icon-tic' } },
 				{ name: 'Icono Writing', element: 'span', attributes: { 'class': 'icon icon-writing' } },
+				{ name: 'Ico.00 Audiovisuales', element: 'span', attributes: { 'class': 'icon icon-audiovisuales' } },
+				{ name: 'Ico.01 Interactivas', element: 'span', attributes: { 'class': 'icon icon-interactivas' } },
+				{ name: 'Ico.02 Pensamiento Visual', element: 'span', attributes: { 'class': 'icon icon-pensamientovisual' } },
+				{ name: 'Ico.03 Programas y Simulaciones', element: 'span', attributes: { 'class': 'icon icon-programasysimulaciones' } },
+				{ name: 'Ico.04 Info y Doc', element: 'span', attributes: { 'class': 'icon icon-infoydoc' } },
 
 				{ name: 'HR 1', element: 'hr', attributes: { 'class': 'bck-hr-1' } },
 				{ name: 'HR 2', element: 'hr', attributes: { 'class': 'bck-hr-2' } }
