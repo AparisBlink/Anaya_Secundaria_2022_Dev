@@ -1853,6 +1853,21 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .item-container .icon-writing:before {
     background-image: url(images/icono_writing.png);
 }
+.item-container .icon-audiovisuales:before {
+    background-image: url(images/icono_audiovisuales.png);
+}
+.item-container .icon-interactivas:before {
+    background-image: url(images/icono_interactivas.png);
+}
+.item-container .icon-pensamientovisual:before {
+    background-image: url(images/icono_pensamientovisual.png);
+}
+.item-container .icon-programasysimulaciones:before {
+    background-image: url(images/icono_programasysimulaciones.png);
+}
+.item-container .icon-infoydoc:before {
+    background-image: url(images/icono_infoydoc.png);
+}
 
 
 
