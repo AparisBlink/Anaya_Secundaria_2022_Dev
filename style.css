@@ -1853,22 +1853,51 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 .item-container .icon-writing:before {
     background-image: url(images/icono_writing.png);
 }
+.icon-audiovisuales {
+    display: block;
+    margin: 0 auto;
+}
 .item-container .icon-audiovisuales:before {
     background-image: url(images/icono_audiovisuales.png);
+    width: 60px;
+    height: 60px;
+}
+.icon-interactivas {
+    display: block;
+    margin: 0 auto;
 }
 .item-container .icon-interactivas:before {
     background-image: url(images/icono_interactivas.png);
+    width: 60px;
+    height: 60px;
+}
+.icon-pensamientovisual {
+    display: block;
+    margin: 0 auto;
 }
 .item-container .icon-pensamientovisual:before {
     background-image: url(images/icono_pensamientovisual.png);
+    width: 60px;
+    height: 60px;
+}
+.icon-programasysimulaciones {
+    display: block;
+    margin: 0 auto;
 }
 .item-container .icon-programasysimulaciones:before {
     background-image: url(images/icono_programasysimulaciones.png);
+    width: 60px;
+    height: 60px;
+}
+.icon-infoydoc {
+    display: block;
+    margin: 0 auto;
 }
 .item-container .icon-infoydoc:before {
     background-image: url(images/icono_infoydoc.png);
+    width: 60px;
+    height: 60px;
 }
-
 
 
 /*Lupa para imágenes*/
