@@ -2354,6 +2354,10 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 }
 .deliverablefile .divbuttons .row {
     text-align: center;
+    border-bottom: 0;
+}
+.deliverablefile .divtitle {
+    border-top: 0;
 }
 .deliverablefile .divtitle .title-deliverablefile {
     text-align: center;
