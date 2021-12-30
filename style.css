@@ -2338,9 +2338,13 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 }
 
 
-/*parejas cartas*/
+/*Memoria*/
 #actividad .workspace.memory .flip-container p {
 	font-size: 1.5rem;
+}
+#actividad .workspace.memory .front {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 /*Adjuntar archivos*/
