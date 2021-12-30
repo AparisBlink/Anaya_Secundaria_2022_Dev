@@ -2553,7 +2553,7 @@ and (max-width : 480px) {
         --TextoGeneral: 16px;
         --LineHeightGen: 26px;
         --TextoSecundario: 14px;
-        --LineHeightSecundario: 25px;
+        --LineHeightSecundario: 21px;
 }
 
 .texto_curso p {
