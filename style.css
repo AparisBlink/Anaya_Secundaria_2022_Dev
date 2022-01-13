@@ -416,7 +416,7 @@ body:not(.edit) #actividad .content .header {
 }
 
 /*Icono audio*/
-#actividad a,
+#actividad a.player.audio,
  body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/Anaya_2022_audio.png);
@@ -2543,6 +2543,8 @@ table td.bck-td-5 {
 }
 
 /*Coursetags*/
+
+/*coursetag_bruno_bg*/
 .coursetag_bruno_bg {
 	--colorppal: #009739;
 	--colortrans: #C7FEB9;
@@ -2551,7 +2553,13 @@ table td.bck-td-5 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
+.coursetag_bruno_bg #actividad a,
+ body:not(.edit).coursetag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
 
+/*coursetag_bruno_fq*/
 .coursetag_bruno_fq {
 	--colorppal: #005EB8;
 	--colortrans: #B9E9FE;
@@ -2560,6 +2568,13 @@ table td.bck-td-5 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
+.coursetag_bruno_fq #actividad a,
+ body:not(.edit).coursetag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
+
+/*coursetag_bruno_mates*/
 .coursetag_bruno_mates {
 	--colorppal: #528799;
 	--colortrans: #B9FAFE;
@@ -2568,14 +2583,23 @@ table td.bck-td-5 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
+.coursetag_bruno_mates #actividad a,
+ body:not(.edit).coursetag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
+
+/*coursetag_algaida_lengua_eso*/
 .coursetag_algaida_lengua_eso {
 	--colorppal: #72B1AA;
 	--colortrans: #C3FBF5;
     --colorsecundario: #6FA43A;
     --colorsecundariotrans: #B2FF66;
-    --TextoFondoPpal:#fff;
-    --TextoFondoPpal2:#fff;
+    --TextoFondoPpal:#000;
+    --TextoFondoPpal2:#000;
 }
+
+/*coursetag_algaida_gh*/
 .coursetag_algaida_gh {
     --colorppal: #D37C01;
 	--colortrans: #FFEDD2;
@@ -2584,6 +2608,13 @@ table td.bck-td-5 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
+.coursetag_algaida_gh #actividad a,
+ body:not(.edit).coursetag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
+
+/*coursetag_algaida_hmc*/
 .coursetag_algaida_hmc {
     --colorppal: #EAC046;
 	--colortrans: #FFE69D;
@@ -2592,7 +2623,9 @@ table td.bck-td-5 {
     --TextoFondoPpal:#000;
     --TextoFondoPpal2:#000;
 }
-.coursetag_algaida_literatura {
+
+/*coursetag_algaida_hmc*/
+.coursetag_algaida_hmc {
     --colorppal: #D58A8B;
 	--colortrans: #FED3D3;
     --colorsecundario: #001100;
@@ -2600,13 +2633,15 @@ table td.bck-td-5 {
     --TextoFondoPpal:#000;
     --TextoFondoPpal2:#000;
 }
+
+/*coursetag_lengua_bach*/
 .coursetag_lengua_bach {
     --colorppal: #7EACCA;
 	--colortrans: #C0D1DC;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
-    --TextoFondoPpal:#fff;
-    --TextoFondoPpal2:#fff;
+    --TextoFondoPpal:#000;
+    --TextoFondoPpal2:#000;
 }
 
 /*Coursetag_Barcanova*/
@@ -2645,6 +2680,11 @@ table td.bck-td-5 {
     top: 30px;
     right: 60px;
 }
+.coursetag_barcanova #actividad a,
+ body:not(.edit).coursetag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
 
 /*Socials, Historia, Ciencia mundo contemporáneo...*/
 .coursetag_barcanova_cms {
@@ -2658,6 +2698,11 @@ table td.bck-td-5 {
 .coursetag_barcanova_cms .item-container:before {
     background-image: url(images/cab_barsec_910_cms.png);
 }
+.coursetag_barcanova_cms #actividad a,
+ body:not(.edit).coursetag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
 
 /*Matematicas, Economia*/
 .coursetag_barcanova_mat {
@@ -2668,6 +2713,11 @@ table td.bck-td-5 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff; 
 }
+.coursetag_barcanova_mat #actividad a,
+ body:not(.edit).coursetag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
 
 /*Llengua Catalana*/
 .coursetag_barcanova_cat {
@@ -2675,8 +2725,8 @@ table td.bck-td-5 {
 	--colortrans: #f8e79b;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
-    --TextoFondoPpal:#fff;
-    --TextoFondoPpal2:#fff; 
+    --TextoFondoPpal:#000;
+    --TextoFondoPpal2:#000; 
 }
 .coursetag_barcanova_cat .item-container:before {
     background-image: url(images/cab_barsec_910_cat.png);
@@ -2694,6 +2744,11 @@ table td.bck-td-5 {
 .coursetag_barcanova_cas .item-container:before {
     background-image: url(images/cab_barsec_910_cas.png);
 }
+.coursetag_barcanova_cas #actividad a,
+ body:not(.edit).coursetag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
 
 /*Biologia*/
 .coursetag_barcanova_cmn {
@@ -2701,8 +2756,8 @@ table td.bck-td-5 {
 	--colortrans: #B1CF8A;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
-    --TextoFondoPpal:#fff;
-    --TextoFondoPpal2:#fff; 
+    --TextoFondoPpal:#000;
+    --TextoFondoPpal2:#000; 
 }
 .coursetag_barcanova_cmn .item-container:before {
     background-image: url(images/cab_barsec_910_cmn.png);
@@ -2720,6 +2775,11 @@ table td.bck-td-5 {
 .coursetag_barcanova_lat .item-container:before {
     background-image: url(images/cab_barsec_910_lat.png);
 }
+.coursetag_barcanova_lat #actividad a,
+ body:not(.edit).coursetag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
 
 /*Filosofia*/
 .coursetag_barcanova_fil {
@@ -2733,6 +2793,16 @@ table td.bck-td-5 {
 .coursetag_barcanova_fil .item-container:before {
     background-image: url(images/cab_barsec_910_fil.png);
 }
+.coursetag_barcanova_fil #actividad a,
+ body:not(.edit).coursetag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit).coursetag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_play_blanco.png);
+}
+
+/*--------------------------------------------------*/
+/*PROVISIONAL UNITTAGS - QUITAR AL SUBIR AL PROFESOR*/
+/*--------------------------------------------------*/
+
 
 /*SECCIONES*/
 /*fondotransparente*/
@@ -2742,8 +2812,23 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 
 /*MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-#actividad .carousel-inner .class_slide {
-    padding: 40px 40px 0px;
+    #actividad .carousel-inner .class_slide {
+        padding: 40px 40px 0px;
+    }
+    .coursetag_barcanova .item-container:after {
+        right: 40px;
+}
+}
+    
+@media (max-width: 767px){
+    .body_clase #actividad .carousel-inner .item-container {
+        margin-top: 0;
+}
+}
+    
+@media (max-width: 579px) {
+    .body_clase #actividad .carousel-inner .item-container {
+        margin-top: 0;
 }
 }
 
@@ -2757,8 +2842,12 @@ and (max-width : 480px) {
         --LineHeightSecundario: 21px;
 }
 
+#actividad .carousel-inner .class_slide {
+    padding: 40px 20px 0px;
+}
+
 .texto_curso p {
-    line-height: var(--TextoGeneral) !important;
+    line-height: var(--LineHeightGen) !important;
 }
 #actividad .class_slide .review {
     text-align: center;
@@ -2766,6 +2855,8 @@ and (max-width : 480px) {
 /*36px pasan a 26px*/
 .bck-title-1 {
     font-size: 26px;    
+    line-height: 3.0rem;
+    margin: 15px 0 30px 0;
 }
 /*48px pasan a 36px*/
 #actividad .content .header .title h3,
