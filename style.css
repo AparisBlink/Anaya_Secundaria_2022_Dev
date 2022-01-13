@@ -2627,8 +2627,8 @@ table td.bck-td-5 {
     --TextoFondoPpal2:#000;
 }
 
-/*coursetag_algaida_hmc*/
-.coursetag_algaida_hmc {
+/*coursetag_algaida_literatura*/
+.coursetag_algaida_literatura {
     --colorppal: #D58A8B;
 	--colortrans: #FED3D3;
     --colorsecundario: #001100;
@@ -2802,9 +2802,7 @@ table td.bck-td-5 {
     background-image: url(images/icon_play_blanco.png);
 }
 
-/*--------------------------------------------------*/
-/*PROVISIONAL UNITTAGS - QUITAR AL SUBIR AL PROFESOR*/
-/*--------------------------------------------------*/
+
 
 
 /*SECCIONES*/
@@ -2903,6 +2901,271 @@ and (max-width : 480px) {
     }
 }
 
+/*--------------------------------------------------*/
+/*----UNITTAGS - ELIMINAR AL SUBIR A PROD-----------*/
+/*--------------------------------------------------*/
+/*unittags*/
+
+        /*unittag_bruno_bg*/
+        .unittag_bruno_bg {
+            --colorppal: #009739;
+            --colortrans: #C7FEB9;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff;
+        }
+        .unittag_bruno_bg #actividad a,
+        body:not(.edit).unittag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*unittag_bruno_fq*/
+        .unittag_bruno_fq {
+            --colorppal: #005EB8;
+            --colortrans: #B9E9FE;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff;
+        }
+        .unittag_bruno_fq #actividad a,
+        body:not(.edit).unittag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*unittag_bruno_mates*/
+        .unittag_bruno_mates {
+            --colorppal: #528799;
+            --colortrans: #B9FAFE;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff;
+        }
+        .unittag_bruno_mates #actividad a,
+        body:not(.edit).unittag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*unittag_algaida_lengua_eso*/
+        .unittag_algaida_lengua_eso {
+            --colorppal: #72B1AA;
+            --colortrans: #C3FBF5;
+            --colorsecundario: #6FA43A;
+            --colorsecundariotrans: #B2FF66;
+            --TextoFondoPpal:#000;
+            --TextoFondoPpal2:#000;
+        }
+
+        /*unittag_algaida_gh*/
+        .unittag_algaida_gh {
+            --colorppal: #D37C01;
+            --colortrans: #FFEDD2;
+            --colorsecundario: #E3AE49;
+            --colorsecundariotrans: #FFF9ED;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff;
+        }
+        .unittag_algaida_gh #actividad a,
+        body:not(.edit).unittag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*unittag_algaida_hmc*/
+        .unittag_algaida_hmc {
+            --colorppal: #EAC046;
+            --colortrans: #FFE69D;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#000;
+            --TextoFondoPpal2:#000;
+        }
+
+        /*unittag_algaida_literatura*/
+        .unittag_algaida_literatura {
+            --colorppal: #D58A8B;
+            --colortrans: #FED3D3;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#000;
+            --TextoFondoPpal2:#000;
+        }
+
+        /*unittag_lengua_bach*/
+        .unittag_lengua_bach {
+            --colorppal: #7EACCA;
+            --colortrans: #C0D1DC;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#000;
+            --TextoFondoPpal2:#000;
+        }
+
+        /*unittag_Barcanova*/
+        .unittag_barcanova {
+            --colorppal: #C24735;
+            --colortrans: #E4C3BE;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff;
+        }
+        .unittag_barcanova #actividad .carousel-inner .item-container {
+            padding-top: 20px;
+        }
+        .unittag_barcanova .item-container:before {
+            content: "";
+            background-image: url(images/cab_barsec_910_cas.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: right center;
+            display: block;
+            width: 65%;
+            height: 70px;
+            margin-left: -1px;
+            max-width: 910px;
+        }
+        .unittag_barcanova .item-container:after {
+            content: "";
+            background-image: url(images/logo_Barcanova.png);
+            width: 60px;
+            height: 60px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            position: absolute;
+            top: 30px;
+            right: 60px;
+        }
+        .unittag_barcanova #actividad a,
+        body:not(.edit).unittag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*Socials, Historia, Ciencia mundo contemporáneo...*/
+        .unittag_barcanova_cms {
+            --colorppal: #d58646;
+            --colortrans: #E5B690;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff; 
+        }
+        .unittag_barcanova_cms .item-container:before {
+            background-image: url(images/cab_barsec_910_cms.png);
+        }
+        .unittag_barcanova_cms #actividad a,
+        body:not(.edit).unittag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*Matematicas, Economia*/
+        .unittag_barcanova_mat {
+            --colorppal: #0080ad;
+            --colortrans: #d4e7f8;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff; 
+        }
+        .unittag_barcanova_mat #actividad a,
+        body:not(.edit).unittag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*Llengua Catalana*/
+        .unittag_barcanova_cat {
+            --colorppal: #f1ce00;
+            --colortrans: #f8e79b;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#000;
+            --TextoFondoPpal2:#000; 
+        }
+        .unittag_barcanova_cat .item-container:before {
+            background-image: url(images/cab_barsec_910_cat.png);
+        }
+
+        /*Llengua Castellana*/
+        .unittag_barcanova_cas {
+            --colorppal: #ab0047;
+            --colortrans: #D98C8C;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff; 
+        }
+        .unittag_barcanova_cas .item-container:before {
+            background-image: url(images/cab_barsec_910_cas.png);
+        }
+        .unittag_barcanova_cas #actividad a,
+        body:not(.edit).unittag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*Biologia*/
+        .unittag_barcanova_cmn {
+            --colorppal: #7eaf3d;
+            --colortrans: #B1CF8A;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#000;
+            --TextoFondoPpal2:#000; 
+        }
+        .unittag_barcanova_cmn .item-container:before {
+            background-image: url(images/cab_barsec_910_cmn.png);
+        }
+
+        /*Latín*/
+        .unittag_barcanova_lat {
+            --colorppal: #8E4E35;
+            --colortrans: #CBA782;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff; 
+        }
+        .unittag_barcanova_lat .item-container:before {
+            background-image: url(images/cab_barsec_910_lat.png);
+        }
+        .unittag_barcanova_lat #actividad a,
+        body:not(.edit).unittag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        /*Filosofia*/
+        .unittag_barcanova_fil {
+            --colorppal: #8a4a85;
+            --colortrans: #AD80A9;
+            --colorsecundario: #001100;
+            --colorsecundariotrans: #F1F3F9;
+            --TextoFondoPpal:#fff;
+            --TextoFondoPpal2:#fff; 
+        }
+        .unittag_barcanova_fil .item-container:before {
+            background-image: url(images/cab_barsec_910_fil.png);
+        }
+        .unittag_barcanova_fil #actividad a,
+        body:not(.edit).unittag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+        body:not(.edit).unittag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+            background-image: url(images/icon_play_blanco.png);
+        }
+
+        @media screen and (max-width: 768px) {
+            .unittag_barcanova .item-container:after {
+                right: 40px;
+        }
+        }
 
 
 
