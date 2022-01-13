@@ -55,11 +55,10 @@
 :root {
 	--colorppal: #FDB325;
 	--colortrans: #FEE7B9;
-    --GrisAnaya: #898989;
     --colorsecundario: #001100;
     --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#000;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#000;
 
 
     --TextoGeneral: 18px;
@@ -103,7 +102,7 @@ strong {
     }
     body #indice .units ul li.active:hover:not(.disabled) {
         background: var(--colorppal);
-        color: var(--TextoFondo);
+        color: var(--TextoFondoPpal);
     }
 
     #indice .units ul li a:not(.delete) {
@@ -129,12 +128,12 @@ strong {
 
     body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
         margin-left: 30px;
-        color: var(--TextoFondoSec);
+        color: var(--TextoFondoPpal2);
     }
 
     #indice .unit-content .header.default {
         background: var(--colorppal) !important;
-        color: var(--TextoFondo);
+        color: var(--TextoFondoPpal);
     }
     #indice a:hover,
     #indice a:active,
@@ -163,12 +162,12 @@ strong {
     }
     body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
         background: var(--colorppal);
-        color: var(--TextoFondo);
+        color: var(--TextoFondoPpal);
     }
     #book-index #indice .units ul li a:hover .title {
         margin: 0;
         font-size: 16px;
-        color: var(--TextoFondo);
+        color: var(--TextoFondoPpal);
     }
     #book-index .col-main {
         background: var(--colorppal);
@@ -380,7 +379,7 @@ body:not(.edit) #actividad .content .header {
 #actividad .content .header .title h3 {
     margin-top: 0;
     background: none;
-    color: var(--GrisAnaya);
+    color: #898989;
     padding: 0;
     font-size: 36px;
     border: 0;
@@ -417,10 +416,16 @@ body:not(.edit) #actividad .content .header {
 }
 
 /*Icono audio*/
-#actividad .player.audio {
-	background-image: url(images/Anaya_2022_audio.png);
-	color: #fff;
-    background-color: var(--colorppal) !important;
+#actividad a,
+ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/Anaya_2022_audio.png);
+    color: #fff;
+    width: 30px !important;
+    height: 30px !important;
+    vertical-align: bottom;
+    margin: 0 4px;
+    background-color: var(--colorppal);
 }
 
 
@@ -507,20 +512,22 @@ body:not(.edit) .bck-file-label:before {
 .bck-file-label {
     position: relative;
     background-color: #fff;
-    box-shadow: 0px 5px 10px #0000004d;
-    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .bck-file-label:before {
     content: "";
-    background-image: url(images/Icono_adjuntos.png);
+    background-image: url(images/icon_adjunto.png);
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 5px;
+    margin: 0 auto 5px;
+    background-color: var(--colorppal);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 /* TÍTULOS */
@@ -585,7 +592,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-9 {
     font-size: var(--TextoGeneral);
     font-weight: bold;
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
     background-color: var(--colorppal);
     -webkit-width: fit-content;
     width: fit-content;
@@ -617,7 +624,7 @@ body:not(.edit) .bck-file-label:before {
 
 .bck-title-11 {
     font-size: var(--TextoGeneral);
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
@@ -651,7 +658,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-14,
 .bck-title-16 {
     font-size: var(--TextoGeneral);
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
@@ -880,7 +887,7 @@ body .bck-box .bck-title p {
     margin-top: -15px;
     text-align: center;
     font-weight: bold;
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
 }
 .bck-box.bck-box-2>.bck-content, 
 .bck-box.bck-box-8>.bck-content, 
@@ -1077,7 +1084,7 @@ body .bck-box .bck-title p {
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
     cursor: pointer;
     font-size: var(--TextoGeneral);
     font-weight: bold;
@@ -1101,11 +1108,11 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon {
     position: absolute;
     right: 1.1rem;
-    color:var(--TextoFondoSec);
+    color:var(--TextoFondoPpal2);
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon>.fa {
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
     border: none;
     padding: 0;
     font-size: var(--TextoGeneral);
@@ -1194,7 +1201,7 @@ body:not(.edit) .bck-flipbox-face.front {
     -moz-box-shadow: 0px 5px 9px var(--colortrans);
     -webkit-box-shadow: 0px 5px 9px var(--colortrans);
     box-shadow: 0px 5px 9px var(--colortrans);
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
     background-color: var(--colorppal);
     padding: 15px;
     outline: 1px solid #333333;
@@ -1607,7 +1614,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     position: relative;
     background: none;
     font-size: 16px;
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
     border-bottom: 0;
     font-weight: bold;
     background-color: var(--colorppal);
@@ -1621,7 +1628,7 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     font-size: 16px;
 }
 .close-popover {
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
     top: 8px;
 }
 .info-template .info-title {
@@ -1649,48 +1656,30 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
 
 #actividad .info-button {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 0px;
-    -moz-box-shadow: 0px 4px 4px #00000038;
-    -webkit-box-shadow: 0px 4px 4px #00000038;
-    box-shadow: 0px 4px 4px #00000038;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -moz-box-shadow: 0px 3px 5px #606060;
+    -webkit-box-shadow: 0px 3px 5px #606060;
+    box-shadow: 0px 3px 5px #606060;
+    border-radius: 50px;
     color: #1a171b;
-    line-height: 38px;
+    line-height: 0;
     text-align: center;
     cursor: pointer;
-    background-image: url(images/icono_popup.png);
+    background-image: url(images/icon_popup.png);
     background-position: center;
+    background-color: var(--colorppal);
 }
 
 /*Pop-up flotante*/
 .info-template {
-	position: fixed;
-	top: 100px;
-	right: 0;
-	-webkit-transform: translateX(105%);
-	-moz-transform: translateX(105%);
-	-ms-transform: translateX(105%);
-	-o-transform: translateX(105%);
-	transform: translateX(105%);
-	z-index: 1000;
-	width: 135px;
-	height: auto;
 	-webkit-box-shadow: 0 0 2px #555;
 	-moz-box-shadow: 0 0 2px #555;
 	box-shadow: 0 0 2px #555;
-	-webkit-border-radius: 5px 0 0 5px;
-	-moz-border-radius: 5px 0 0 5px;
-	border-radius: 5px 0 0 5px;
-	background: #fff;
-	padding: 15px 5px 0;
-	-webkit-transition: all ease-in-out .5s;
-	-o-transition: all ease-in-out .5s;
-	-moz-transition: all ease-in-out .5s;
-	transition: all ease-in-out .5s;
+	border-radius: 10px 0 0 10px;
+	background: var(--colorppal);
+	padding: 20px 5px 0;
 }
 .info-template.shown {
     background: var(--colorppal);
@@ -1699,11 +1688,10 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     box-shadow: -3px 2px 7px #00000038;
     width: auto;
     max-width: 180px;
-
 }
 .info-template .info-title.shown {
     margin: 5px 10px;
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
     font-weight: bold;
     font-size: 14px;
     padding: 0 0 6px 0;
@@ -1712,8 +1700,12 @@ body:not(.edit) .bck-flipbox-2 .bck-flipbox-face.back {
     color: #000;
 }
 .info-template .info-icon {
-    background-image: url(images/icono_popup.png);
+    background-image: url(images/icon_popup.png);
     background-position: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--colorppal);
+    background-size: contain;
 }
 
 
@@ -1960,7 +1952,7 @@ body.view-mode .bck-subtitles {
     background: var(--colorppal);
     padding: 5px;
     text-align: center;
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
     border-radius: 0 0 5px 5px;
 }
 .video-js .vjs-progress-holder .vjs-play-progress {
@@ -2056,7 +2048,7 @@ hr {
     background-color: var(--colorppal);
     border-color: var(--colorppal);
     font-weight: bold;
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
 }
 /*Rellenar espacios*/
 
@@ -2325,7 +2317,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     background-color: var(--colorppal);
 }
 #actividad .workspace.syntax .circulo {
-    color: var(--TextoFondo);
+    color: var(--TextoFondoPpal);
 }
 #actividad .workspace.syntax .bloque.filled {
     border-bottom: 2px var(--colorppal) solid;
@@ -2431,7 +2423,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
   .btn-danger:active,
    .btn-danger.active,
     .open .dropdown-toggle.btn-danger {
-        color: var(--TextoFondoSec);
+        color: var(--TextoFondoPpal2);
         background-color: var(--colorppal);
 }
 
@@ -2441,7 +2433,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-primary:not([disabled]):hover,
 .open .dropdown-toggle.btn-primary {
     background-color: var(--colorppal);
-    color:  var(--TextoFondoSec);
+    color:  var(--TextoFondoPpal2);
 }
 #actividad .content .review .attemps span {
     background-color: #E0E0E0;
@@ -2511,10 +2503,10 @@ table td,
 }
 
 .bck-table-2 {
-	border-color: var(--GrisAnaya);
+	border-color: #898989;
 }
 .bck-table-2 td {
-	border-color: var(--GrisAnaya);
+	border-color: #898989;
     font-size: 15px;
 }
 
@@ -2525,7 +2517,7 @@ th {
 
 /*Celda*/
 table td.bck-td-1 {
-    color: var(--TextoFondoSec);
+    color: var(--TextoFondoPpal2);
     background-color: var(--colorppal);
     font-weight: bold;
     text-align: center;
@@ -2548,6 +2540,198 @@ table td.bck-td-4 {
 table td.bck-td-5 {
     font-size: 16px;
     text-align: center;
+}
+
+/*Coursetags*/
+.coursetag_bruno_bg {
+	--colorppal: #009739;
+	--colortrans: #C7FEB9;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+
+.coursetag_bruno_fq {
+	--colorppal: #005EB8;
+	--colortrans: #B9E9FE;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+.coursetag_bruno_mates {
+	--colorppal: #528799;
+	--colortrans: #B9FAFE;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+.coursetag_algaida_lengua_eso {
+	--colorppal: #72B1AA;
+	--colortrans: #C3FBF5;
+    --colorsecundario: #6FA43A;
+    --colorsecundariotrans: #B2FF66;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+.coursetag_algaida_gh {
+    --colorppal: #D37C01;
+	--colortrans: #FFEDD2;
+    --colorsecundario: #E3AE49;
+    --colorsecundariotrans: #FFF9ED;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+.coursetag_algaida_hmc {
+    --colorppal: #EAC046;
+	--colortrans: #FFE69D;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#000;
+    --TextoFondoPpal2:#000;
+}
+.coursetag_algaida_literatura {
+    --colorppal: #D58A8B;
+	--colortrans: #FED3D3;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#000;
+    --TextoFondoPpal2:#000;
+}
+.coursetag_lengua_bach {
+    --colorppal: #7EACCA;
+	--colortrans: #C0D1DC;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+
+/*Coursetag_Barcanova*/
+.coursetag_barcanova {
+    --colorppal: #C24735;
+	--colortrans: #E4C3BE;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff;
+}
+.coursetag_barcanova #actividad .carousel-inner .item-container {
+    padding-top: 20px;
+}
+.coursetag_barcanova .item-container:before {
+    content: "";
+    background-image: url(images/cab_barsec_910_cas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    width: 65%;
+    height: 70px;
+    margin-left: -1px;
+    max-width: 910px;
+}
+.coursetag_barcanova .item-container:after {
+    content: "";
+    background-image: url(images/logo_Barcanova.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+/*Socials, Historia, Ciencia mundo contemporáneo...*/
+.coursetag_barcanova_cms {
+    --colorppal: #d58646;
+	--colortrans: #E5B690;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+.coursetag_barcanova_cms .item-container:before {
+    background-image: url(images/cab_barsec_910_cms.png);
+}
+
+/*Matematicas, Economia*/
+.coursetag_barcanova_mat {
+    --colorppal: #0080ad;
+	--colortrans: #d4e7f8;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+
+/*Llengua Catalana*/
+.coursetag_barcanova_cat {
+    --colorppal: #f1ce00;
+	--colortrans: #f8e79b;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+.coursetag_barcanova_cat .item-container:before {
+    background-image: url(images/cab_barsec_910_cat.png);
+}
+
+/*Llengua Castellana*/
+.coursetag_barcanova_cas {
+    --colorppal: #ab0047;
+	--colortrans: #D98C8C;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+.coursetag_barcanova_cas .item-container:before {
+    background-image: url(images/cab_barsec_910_cas.png);
+}
+
+/*Biologia*/
+.coursetag_barcanova_cmn {
+    --colorppal: #7eaf3d;
+	--colortrans: #B1CF8A;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+.coursetag_barcanova_cmn .item-container:before {
+    background-image: url(images/cab_barsec_910_cmn.png);
+}
+
+/*Latín*/
+.coursetag_barcanova_lat {
+    --colorppal: #8E4E35;
+	--colortrans: #CBA782;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+.coursetag_barcanova_lat .item-container:before {
+    background-image: url(images/cab_barsec_910_lat.png);
+}
+
+/*Filosofia*/
+.coursetag_barcanova_fil {
+    --colorppal: #8a4a85;
+	--colortrans: #AD80A9;
+    --colorsecundario: #001100;
+    --colorsecundariotrans: #F1F3F9;
+    --TextoFondoPpal:#fff;
+    --TextoFondoPpal2:#fff; 
+}
+.coursetag_barcanova_fil .item-container:before {
+    background-image: url(images/cab_barsec_910_fil.png);
 }
 
 /*SECCIONES*/
@@ -2620,72 +2804,5 @@ and (max-width : 480px) {
 }	
 }
 
-/*Coursetags*/
-.coursetag_bruno_bg {
-	--colorppal: #009739;
-	--colortrans: #C7FEB9;
-    --colorsecundario: #001100;
-    --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#fff;
-}
 
-.coursetag_bruno_fq {
-	--colorppal: #005EB8;
-	--colortrans: #B9E9FE;
-    --colorsecundario: #001100;
-    --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#fff;
-}
-.coursetag_bruno_mates {
-	--colorppal: #528799;
-	--colortrans: #B9FAFE;
-    --colorsecundario: #001100;
-    --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#fff;
-}
-.coursetag_algaida_lengua_eso {
-	--colorppal: #72B1AA;
-	--colortrans: #C3FBF5;
-    --colorsecundario: #6FA43A;
-    --colorsecundariotrans: #B2FF66;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#fff;
-}
-.coursetag_algaida_gh {
-    --colorppal: #D37C01;
-	--colortrans: #FFEDD2;
-    --colorsecundario: #E3AE49;
-    --colorsecundariotrans: #FFF9ED;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#fff;
-}
-.coursetag_algaida_hmc {
-    --colorppal: #EAC046;
-	--colortrans: #FFE69D;
-    --colorsecundario: #001100;
-    --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#000;
-    --TextoFondoSec:#000;
-}
-.coursetag_algaida_literatura {
-    --colorppal: #D58A8B;
-	--colortrans: #FED3D3;
-    --colorsecundario: #001100;
-    --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#000;
-    --TextoFondoSec:#000;
-}
-.coursetag_lengua_bach {
-    --colorppal: #7EACCA;
-	--colortrans: #C0D1DC;
-    --colorsecundario: #001100;
-    --colorsecundariotrans: #F1F3F9;
-    --TextoFondo:#fff;
-    --TextoFondoSec:#fff;
-}
-.coursetag_barcanova {
 
-}
