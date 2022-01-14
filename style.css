@@ -968,7 +968,7 @@ body .bck-box .bck-title p {
 }
 .bck-box-5>.bck-content,
 .bck-box-11>.bck-content {
-    font-size: 16px;
+    font-size: var(--TextoSecundario);
 }
 
 /*Caja 6*/
@@ -1031,15 +1031,12 @@ body .bck-box .bck-title p {
     background-color: var(--colorsecundariotrans);
 }
 
-/*Caja 11 - Reglas generales en Caja 2 */
+/*Caja 11 - Reglas generales en Caja 5 */
 .bck-box.bck-box-11 {
     background-color: var(--colorsecundariotrans);
 }
 .bck-box-11>.bck-title {
     color: var(--colorsecundario);
-}
-.bck-box-11>.bck-content {
-    font-size: var(--TextoSecundario);
 }
 
 /*Caja 12 - Caja Básica */
@@ -1089,6 +1086,9 @@ body .bck-box .bck-title p {
  .bck-box.bck-box-16>.bck-title {
     background: var(--colorsecundario);
     color: #fff;
+}
+.bck-box.bck-box-16>.bck-content {
+    font-size: var(--TextoSecundario);
 }
 
 
