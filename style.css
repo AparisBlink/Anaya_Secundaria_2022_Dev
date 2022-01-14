@@ -2843,7 +2843,9 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
     }
     .coursetag_barcanova .item-container:after {
         right: 40px;
-}
+        width: 50px;
+        height: 50px;
+    }
 }
     
 @media (max-width: 767px){
@@ -2866,6 +2868,12 @@ and (max-width : 480px) {
         --LineHeightGen: 26px;
         --TextoSecundario: 14px;
         --LineHeightSecundario: 21px;
+}
+
+.coursetag_barcanova .item-container:after {
+    right: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 #actividad .carousel-inner .class_slide {
@@ -2920,7 +2928,7 @@ and (max-width : 480px) {
 }	
 }
 
-@media only screen and (max-width : 330px) { 
+@media only screen and (max-width : 410px) { 
     .btn {
         margin: 5px 0;
     }
