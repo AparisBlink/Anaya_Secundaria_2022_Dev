@@ -2741,6 +2741,9 @@ table td.bck-td-7 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff; 
 }
+.coursetag_barcanova_mat .item-container:before {
+    background-image: url(images/cab_barsec_910_mat.png);
+}
 .coursetag_barcanova_mat #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
