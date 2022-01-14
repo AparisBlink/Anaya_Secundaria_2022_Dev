@@ -2581,7 +2581,7 @@ table td.bck-td-7 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
-.coursetag_bruno_bg #actividad a,
+.coursetag_bruno_bg #actividad a.player.audio,
  body:not(.edit).coursetag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2596,7 +2596,7 @@ table td.bck-td-7 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
-.coursetag_bruno_fq #actividad a,
+.coursetag_bruno_fq #actividad a.player.audio,
  body:not(.edit).coursetag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2611,7 +2611,7 @@ table td.bck-td-7 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
-.coursetag_bruno_mates #actividad a,
+.coursetag_bruno_mates #actividad a.player.audio,
  body:not(.edit).coursetag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2636,7 +2636,7 @@ table td.bck-td-7 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff;
 }
-.coursetag_algaida_gh #actividad a,
+.coursetag_algaida_gh #actividad a.player.audio,
  body:not(.edit).coursetag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2708,7 +2708,7 @@ table td.bck-td-7 {
     top: 30px;
     right: 60px;
 }
-.coursetag_barcanova #actividad a,
+.coursetag_barcanova #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2726,7 +2726,7 @@ table td.bck-td-7 {
 .coursetag_barcanova_cms .item-container:before {
     background-image: url(images/cab_barsec_910_cms.png);
 }
-.coursetag_barcanova_cms #actividad a,
+.coursetag_barcanova_cms #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2741,7 +2741,7 @@ table td.bck-td-7 {
     --TextoFondoPpal:#fff;
     --TextoFondoPpal2:#fff; 
 }
-.coursetag_barcanova_mat #actividad a,
+.coursetag_barcanova_mat #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2772,7 +2772,7 @@ table td.bck-td-7 {
 .coursetag_barcanova_cas .item-container:before {
     background-image: url(images/cab_barsec_910_cas.png);
 }
-.coursetag_barcanova_cas #actividad a,
+.coursetag_barcanova_cas #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2803,7 +2803,7 @@ table td.bck-td-7 {
 .coursetag_barcanova_lat .item-container:before {
     background-image: url(images/cab_barsec_910_lat.png);
 }
-.coursetag_barcanova_lat #actividad a,
+.coursetag_barcanova_lat #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2821,7 +2821,7 @@ table td.bck-td-7 {
 .coursetag_barcanova_fil .item-container:before {
     background-image: url(images/cab_barsec_910_fil.png);
 }
-.coursetag_barcanova_fil #actividad a,
+.coursetag_barcanova_fil #actividad a.player.audio,
  body:not(.edit).coursetag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
   body:not(.edit).coursetag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
     background-image: url(images/icon_play_blanco.png);
@@ -2940,7 +2940,7 @@ and (max-width : 480px) {
             --TextoFondoPpal:#fff;
             --TextoFondoPpal2:#fff;
         }
-        .unittag_bruno_bg #actividad a,
+        .unittag_bruno_bg #actividad a.player.audio,
         body:not(.edit).unittag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_bruno_bg #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -2955,7 +2955,7 @@ and (max-width : 480px) {
             --TextoFondoPpal:#fff;
             --TextoFondoPpal2:#fff;
         }
-        .unittag_bruno_fq #actividad a,
+        .unittag_bruno_fq #actividad a.player.audio,
         body:not(.edit).unittag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_bruno_fq #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -2970,7 +2970,7 @@ and (max-width : 480px) {
             --TextoFondoPpal:#fff;
             --TextoFondoPpal2:#fff;
         }
-        .unittag_bruno_mates #actividad a,
+        .unittag_bruno_mates #actividad a.player.audio,
         body:not(.edit).unittag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_bruno_mates #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -2995,7 +2995,7 @@ and (max-width : 480px) {
             --TextoFondoPpal:#fff;
             --TextoFondoPpal2:#fff;
         }
-        .unittag_algaida_gh #actividad a,
+        .unittag_algaida_gh #actividad a.player.audio,
         body:not(.edit).unittag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_algaida_gh #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -3067,7 +3067,7 @@ and (max-width : 480px) {
             top: 30px;
             right: 60px;
         }
-        .unittag_barcanova #actividad a,
+        .unittag_barcanova #actividad a.player.audio,
         body:not(.edit).unittag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_barcanova #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -3085,7 +3085,7 @@ and (max-width : 480px) {
         .unittag_barcanova_cms .item-container:before {
             background-image: url(images/cab_barsec_910_cms.png);
         }
-        .unittag_barcanova_cms #actividad a,
+        .unittag_barcanova_cms #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_cms #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -3100,7 +3100,7 @@ and (max-width : 480px) {
             --TextoFondoPpal:#fff;
             --TextoFondoPpal2:#fff; 
         }
-        .unittag_barcanova_mat #actividad a,
+        .unittag_barcanova_mat #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_mat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -3131,7 +3131,7 @@ and (max-width : 480px) {
         .unittag_barcanova_cas .item-container:before {
             background-image: url(images/cab_barsec_910_cas.png);
         }
-        .unittag_barcanova_cas #actividad a,
+        .unittag_barcanova_cas #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_cas #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -3162,7 +3162,7 @@ and (max-width : 480px) {
         .unittag_barcanova_lat .item-container:before {
             background-image: url(images/cab_barsec_910_lat.png);
         }
-        .unittag_barcanova_lat #actividad a,
+        .unittag_barcanova_lat #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_lat #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
@@ -3180,7 +3180,7 @@ and (max-width : 480px) {
         .unittag_barcanova_fil .item-container:before {
             background-image: url(images/cab_barsec_910_fil.png);
         }
-        .unittag_barcanova_fil #actividad a,
+        .unittag_barcanova_fil #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
         body:not(.edit).unittag_barcanova_fil #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
             background-image: url(images/icon_play_blanco.png);
