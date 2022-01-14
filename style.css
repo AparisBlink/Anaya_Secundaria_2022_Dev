@@ -861,12 +861,13 @@ body .bck-box .bck-title p {
     padding: 0;
 }
 
-/* CAJA 2 y CAJA 8*/
+/* CAJA 2,  CAJA 8 y CAJA 16*/
 .bck-box.bck-box-2>.bck-title:before, 
     .bck-box.bck-box2>.bck-title:before {
 	display: none;
 }
 .bck-box.bck-box-2, 
+.bck-box.bck-box-16, 
 .bck-box.bck-box-8, 
     .bck-box.bck-box2 {
     background-color: white;
@@ -879,6 +880,7 @@ body .bck-box .bck-title p {
 }
  .bck-box.bck-box-2>.bck-title, 
  .bck-box.bck-box-8>.bck-title, 
+ .bck-box.bck-box-16>.bck-title, 
     .bck-box.bck-box2>.bck-title {
     background: var(--colorppal);
     padding: 2px 30px;
@@ -894,6 +896,7 @@ body .bck-box .bck-title p {
 }
 .bck-box.bck-box-2>.bck-content, 
 .bck-box.bck-box-8>.bck-content, 
+.bck-box.bck-box-16>.bck-content, 
     .bck-box.bck-box2>.bck-content {
     padding: 10px 20px;
 }
@@ -1028,13 +1031,15 @@ body .bck-box .bck-title p {
     background-color: var(--colorsecundariotrans);
 }
 
-/*Caja 11 - Reglas en Caja 5. Solo cambio de color */
+/*Caja 11 - Reglas generales en Caja 2 */
 .bck-box.bck-box-11 {
     background-color: var(--colorsecundariotrans);
 }
 .bck-box-11>.bck-title {
-    font-size: 20px;
     color: var(--colorsecundario);
+}
+.bck-box-11>.bck-content {
+    font-size: var(--TextoSecundario);
 }
 
 /*Caja 12 - Caja Básica */
@@ -1075,6 +1080,15 @@ body .bck-box .bck-title p {
     -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 15px;
+}
+
+/*Caja 16 - Caja 8 - Reglas en Caja 2. Solo cambio de color */
+.bck-box.bck-box-16 {
+    border: 2px dashed var(--colorsecundario);
+}
+ .bck-box.bck-box-16>.bck-title {
+    background: var(--colorsecundario);
+    color: #fff;
 }
 
 
