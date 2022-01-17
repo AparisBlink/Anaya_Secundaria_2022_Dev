@@ -34,7 +34,11 @@
 				{ name: ' T.18', element: 'h3', attributes: { 'class': 'bck-title-18'} },
 				{ name: ' T.19', element: 'h3', attributes: { 'class': 'bck-title-19'} },
 				{ name: ' T.20', element: 'h3', attributes: { 'class': 'bck-title-20'} },
-				{ name: ' T.21 Prueba', element: 'h3', attributes: { 'class': 'bck-title-21'} },
+				{ name: ' T.21', element: 'h3', attributes: { 'class': 'bck-title-21'} },
+				{ name: ' T.22', element: 'h3', attributes: { 'class': 'bck-title-22'} },
+				{ name: ' T.23', element: 'h3', attributes: { 'class': 'bck-title-23'} },
+				{ name: ' T.24', element: 'h3', attributes: { 'class': 'bck-title-24'} },
+				{ name: ' T.25', element: 'h3', attributes: { 'class': 'bck-title-25'} },
 
                 { name: 'Pa.01 Texto 16px', element: 'p', attributes: { 'class': 'bck-p-1'} },
 				{ name: 'Pa.02 Texto Citado', element: 'p', attributes: { 'class': 'bck-p-2'} },
@@ -45,6 +49,7 @@
 				{ name: 'Pa.07', element: 'p', attributes: { 'class': 'bck-p-7'} },
 				{ name: 'Pa.08', element: 'p', attributes: { 'class': 'bck-p-8'} },
 				{ name: 'Pa.09', element: 'p', attributes: { 'class': 'bck-p-9'} },
+				{ name: 'Pa.10', element: 'p', attributes: { 'class': 'bck-p-10'} },
 
 				{ name: 'E.01 Color auto', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'E.02 Subrayado', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -192,10 +197,7 @@
 				{ name: 'Ico.01 Interactivas', element: 'span', attributes: { 'class': 'icon icon-interactivas' } },
 				{ name: 'Ico.02 Pensamiento Visual', element: 'span', attributes: { 'class': 'icon icon-pensamientovisual' } },
 				{ name: 'Ico.03 Programas y Simulaciones', element: 'span', attributes: { 'class': 'icon icon-programasysimulaciones' } },
-				{ name: 'Ico.04 Info y Doc', element: 'span', attributes: { 'class': 'icon icon-infoydoc' } },
-
-				{ name: 'HR 1', element: 'hr', attributes: { 'class': 'bck-hr-1' } },
-				{ name: 'HR 2', element: 'hr', attributes: { 'class': 'bck-hr-2' } }
+				{ name: 'Ico.04 Info y Doc', element: 'span', attributes: { 'class': 'icon icon-infoydoc' } }
 			]
 		},
 		slidesTitle: {},
