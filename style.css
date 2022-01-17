@@ -1,5 +1,28 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /*font-family: 'PT Serif', serif;*/
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
 
 @font-face {
     font-family: 'Inter';
@@ -2337,6 +2360,14 @@ body #actividad .workspace.chooseblanks .inline-answer a {
  .slide_content_type_29 .tools .active {
     background-color: var(--colorppal);
 }
+.slide_content_type_35 .draw,
+ .slide_content_type_29 .draw {
+    background-position: 13px -245px;
+}
+.slide_content_type_35 .erase,
+ .slide_content_type_29 .erase {
+    background-position: 13px -125px;
+}
 
 /*Análsis sintáctico*/
 #actividad .workspace.syntax .sintaxis_adder .filled {
@@ -2409,6 +2440,10 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 }
 .deliverablefile .divtable {
     margin-top: 20px;
+}
+/*Respuestas cortas*/
+.hint.solucion.decoding {
+    COLOR: #00BDFF;
 }
 
 
