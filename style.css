@@ -3504,9 +3504,9 @@ and (max-width : 480px) {
 .bck-activity-link {
     background-color: #f8f8f8;
     border-radius: 5px;
-    -webkit-box-shadow: -2px 3px 7px #dfdfdf;
-    -moz-box-shadow: -2px 3px 7px #dfdfdf;
-    box-shadow: -2px 3px 7px #dfdfdf;
+    -webkit-box-shadow: -2px 3px 7px #e7e7e7;
+    -moz-box-shadow: -2px 3px 7px #e7e7e7;
+    box-shadow: -2px 3px 7px #e7e7e7;
     text-align: center;
     margin: 0 0 20px;
 }
